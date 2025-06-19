@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+Scripts/
+Include/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite3
+project_lumiere.db
+
+# Data files and archives
+*.csv
+*.zip
+movie_data.csv
+letterboxd-meccatti-2025-06-19-04-23-utc.zip
+
+# Log files
+*.log
+logs/
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+
+# OS-specific files
+.DS_Store
+Thumbs.db
