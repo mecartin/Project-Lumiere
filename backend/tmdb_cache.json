@@ -1,0 +1,5930 @@
+{
+  "Avatar: The Way of Water::2022": {
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3737,
+        "name": "dying and death"
+      },
+      {
+        "id": 697,
+        "name": "loss of loved one"
+      },
+      {
+        "id": 4862,
+        "name": "alien life-form"
+      },
+      {
+        "id": 6506,
+        "name": "resurrection"
+      },
+      {
+        "id": 10041,
+        "name": "dysfunctional family"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 10158,
+        "name": "alien planet"
+      },
+      {
+        "id": 11239,
+        "name": "distant future"
+      },
+      {
+        "id": 185927,
+        "name": "adopted child"
+      },
+      {
+        "id": 194421,
+        "name": "rebirth"
+      },
+      {
+        "id": 205734,
+        "name": "family dynamics"
+      },
+      {
+        "id": 209051,
+        "name": "adopted son"
+      },
+      {
+        "id": 219826,
+        "name": "stronger villain"
+      },
+      {
+        "id": 273967,
+        "name": "war"
+      },
+      {
+        "id": 313450,
+        "name": "stereoscopic film"
+      },
+      {
+        "id": 325783,
+        "name": "clich\u00e9"
+      }
+    ],
+    "runtime": 192,
+    "vote_average": 7.6,
+    "vote_count": 12615,
+    "popularity": 20.4485,
+    "plot_synopsis": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure."
+  },
+  "Mission: Impossible \u2013 Dead Reckoning::2023": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 4776,
+        "name": "race against time"
+      },
+      {
+        "id": 10364,
+        "name": "mission"
+      },
+      {
+        "id": 588,
+        "name": "rome, italy"
+      },
+      {
+        "id": 3713,
+        "name": "chase"
+      },
+      {
+        "id": 3269,
+        "name": "secret mission"
+      },
+      {
+        "id": 4289,
+        "name": "secret agent"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 9846,
+        "name": "intelligence agency"
+      },
+      {
+        "id": 176802,
+        "name": "rogue agent"
+      },
+      {
+        "id": 269769,
+        "name": "based on tv series"
+      },
+      {
+        "id": 271668,
+        "name": "secret government agency"
+      },
+      {
+        "id": 321905,
+        "name": "northern norway"
+      },
+      {
+        "id": 322496,
+        "name": "action"
+      }
+    ],
+    "runtime": 164,
+    "vote_average": 7.5,
+    "vote_count": 4389,
+    "popularity": 31.4784,
+    "plot_synopsis": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission\u2014not even the lives of those he cares about most."
+  },
+  "La La Land::2016": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 10402,
+        "name": "Music"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 246,
+        "name": "dancing"
+      },
+      {
+        "id": 1691,
+        "name": "dance"
+      },
+      {
+        "id": 1416,
+        "name": "jazz"
+      },
+      {
+        "id": 4344,
+        "name": "musical"
+      },
+      {
+        "id": 3734,
+        "name": "ambition"
+      },
+      {
+        "id": 4623,
+        "name": "casting"
+      },
+      {
+        "id": 5483,
+        "name": "coffee shop"
+      },
+      {
+        "id": 5823,
+        "name": "jazz club"
+      },
+      {
+        "id": 3612,
+        "name": "traffic jam"
+      },
+      {
+        "id": 12396,
+        "name": "hollywood"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 14743,
+        "name": "pianist"
+      },
+      {
+        "id": 33595,
+        "name": "pier"
+      },
+      {
+        "id": 33928,
+        "name": "audition"
+      },
+      {
+        "id": 160404,
+        "name": "valentine's day"
+      },
+      {
+        "id": 171757,
+        "name": "planetarium"
+      },
+      {
+        "id": 183133,
+        "name": "aspiring actor"
+      },
+      {
+        "id": 184793,
+        "name": "movie set"
+      },
+      {
+        "id": 187355,
+        "name": "sunset"
+      },
+      {
+        "id": 193300,
+        "name": "one woman show"
+      },
+      {
+        "id": 225840,
+        "name": "pool party"
+      },
+      {
+        "id": 253388,
+        "name": "griffith observatory"
+      },
+      {
+        "id": 324429,
+        "name": "romantic"
+      },
+      {
+        "id": 325813,
+        "name": "exuberant"
+      },
+      {
+        "id": 325854,
+        "name": "tragic"
+      }
+    ],
+    "runtime": 129,
+    "vote_average": 7.9,
+    "vote_count": 17318,
+    "popularity": 11.1919,
+    "plot_synopsis": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart."
+  },
+  "Zodiac::2007": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 918,
+        "name": "newspaper"
+      },
+      {
+        "id": 736,
+        "name": "journalist"
+      },
+      {
+        "id": 387,
+        "name": "california"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 582,
+        "name": "san francisco, california"
+      },
+      {
+        "id": 627,
+        "name": "killing"
+      },
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 4399,
+        "name": "victim"
+      },
+      {
+        "id": 4950,
+        "name": "code"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10714,
+        "name": "serial killer"
+      },
+      {
+        "id": 11727,
+        "name": "crime scene"
+      },
+      {
+        "id": 12193,
+        "name": "reporter"
+      },
+      {
+        "id": 12570,
+        "name": "whodunit"
+      },
+      {
+        "id": 33457,
+        "name": "alcoholic"
+      },
+      {
+        "id": 54012,
+        "name": "young man"
+      },
+      {
+        "id": 159743,
+        "name": "fourth of july"
+      },
+      {
+        "id": 173103,
+        "name": "newspaper article"
+      },
+      {
+        "id": 194998,
+        "name": "curious"
+      },
+      {
+        "id": 202399,
+        "name": "cartoonist"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      },
+      {
+        "id": 235210,
+        "name": "zodiac killer"
+      },
+      {
+        "id": 270813,
+        "name": "clinical"
+      },
+      {
+        "id": 277050,
+        "name": "bar"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      },
+      {
+        "id": 325817,
+        "name": "foreboding"
+      },
+      {
+        "id": 325839,
+        "name": "ominous"
+      }
+    ],
+    "runtime": 157,
+    "vote_average": 7.528,
+    "vote_count": 10890,
+    "popularity": 8.6204,
+    "plot_synopsis": "The Zodiac murders cause the lives of Paul Avery, David Toschi and Robert Graysmith to intersect."
+  },
+  "Little Miss Sunshine::2006": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 387,
+        "name": "california"
+      },
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 3746,
+        "name": "literature professor"
+      },
+      {
+        "id": 2783,
+        "name": "family's daily life"
+      },
+      {
+        "id": 3306,
+        "name": "highway"
+      },
+      {
+        "id": 5496,
+        "name": "beauty contest"
+      },
+      {
+        "id": 5549,
+        "name": "beauty queen contest"
+      },
+      {
+        "id": 10041,
+        "name": "dysfunctional family"
+      },
+      {
+        "id": 7312,
+        "name": "road trip"
+      },
+      {
+        "id": 10235,
+        "name": "family relationships"
+      },
+      {
+        "id": 33694,
+        "name": "family holiday"
+      },
+      {
+        "id": 167043,
+        "name": "road movie"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      }
+    ],
+    "runtime": 102,
+    "vote_average": 7.693,
+    "vote_count": 7350,
+    "popularity": 3.9234,
+    "plot_synopsis": "A family loaded with quirky, colorful characters piles into an old van and road trips to California for little Olive to compete in a beauty pageant."
+  },
+  "Kill Bill: Vol. 1::2003": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 779,
+        "name": "martial arts"
+      },
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 780,
+        "name": "kung fu"
+      },
+      {
+        "id": 797,
+        "name": "showdown"
+      },
+      {
+        "id": 732,
+        "name": "coma"
+      },
+      {
+        "id": 1938,
+        "name": "sword"
+      },
+      {
+        "id": 1293,
+        "name": "asia"
+      },
+      {
+        "id": 1794,
+        "name": "yakuza"
+      },
+      {
+        "id": 3582,
+        "name": "bride"
+      },
+      {
+        "id": 9725,
+        "name": "sword fight"
+      },
+      {
+        "id": 9748,
+        "name": "revenge"
+      },
+      {
+        "id": 7002,
+        "name": "vigilante"
+      },
+      {
+        "id": 10704,
+        "name": "female yakuza"
+      },
+      {
+        "id": 11321,
+        "name": "animated scene"
+      },
+      {
+        "id": 13027,
+        "name": "wedding"
+      },
+      {
+        "id": 18098,
+        "name": "samurai sword"
+      },
+      {
+        "id": 159869,
+        "name": "eye patch"
+      },
+      {
+        "id": 162388,
+        "name": "retribution"
+      },
+      {
+        "id": 211659,
+        "name": "somber"
+      },
+      {
+        "id": 325841,
+        "name": "pessimistic"
+      }
+    ],
+    "runtime": 111,
+    "vote_average": 7.971,
+    "vote_count": 17908,
+    "popularity": 10.9458,
+    "plot_synopsis": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
+  },
+  "Scott Pilgrim vs. the World::2010": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 282,
+        "name": "video game"
+      },
+      {
+        "id": 390,
+        "name": "skateboarding"
+      },
+      {
+        "id": 1594,
+        "name": "ex-boyfriend"
+      },
+      {
+        "id": 1595,
+        "name": "ex-girlfriend"
+      },
+      {
+        "id": 4227,
+        "name": "toronto, canada"
+      },
+      {
+        "id": 11321,
+        "name": "animated scene"
+      },
+      {
+        "id": 13043,
+        "name": "dating"
+      },
+      {
+        "id": 14600,
+        "name": "guitar player"
+      },
+      {
+        "id": 14602,
+        "name": "break-up"
+      },
+      {
+        "id": 18712,
+        "name": "based on graphic novel"
+      },
+      {
+        "id": 155939,
+        "name": "group of friends"
+      },
+      {
+        "id": 170335,
+        "name": "whipping"
+      },
+      {
+        "id": 175297,
+        "name": "hipster"
+      },
+      {
+        "id": 175301,
+        "name": "underage girlfriend"
+      },
+      {
+        "id": 175316,
+        "name": "unconsciousness"
+      },
+      {
+        "id": 175321,
+        "name": "girl fight"
+      },
+      {
+        "id": 175322,
+        "name": "vegan"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 240257,
+        "name": "garage band"
+      },
+      {
+        "id": 252954,
+        "name": "band competition"
+      }
+    ],
+    "runtime": 113,
+    "vote_average": 7.5,
+    "vote_count": 8093,
+    "popularity": 6.1826,
+    "plot_synopsis": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to eliminate him from her list of suitors."
+  },
+  "The Batman::2022": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 6259,
+        "name": "psychopath"
+      },
+      {
+        "id": 1308,
+        "name": "secret identity"
+      },
+      {
+        "id": 853,
+        "name": "crime fighter"
+      },
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 2334,
+        "name": "nightclub"
+      },
+      {
+        "id": 6083,
+        "name": "politician"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 7002,
+        "name": "vigilante"
+      },
+      {
+        "id": 10291,
+        "name": "organized crime"
+      },
+      {
+        "id": 10714,
+        "name": "serial killer"
+      },
+      {
+        "id": 33626,
+        "name": "millionaire"
+      },
+      {
+        "id": 154954,
+        "name": "social injustice"
+      },
+      {
+        "id": 161982,
+        "name": "murder investigation"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 180734,
+        "name": "masked superhero"
+      },
+      {
+        "id": 181659,
+        "name": "political corruption"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 211659,
+        "name": "somber"
+      },
+      {
+        "id": 232469,
+        "name": "urban gothic"
+      },
+      {
+        "id": 232766,
+        "name": "vengeance"
+      },
+      {
+        "id": 272385,
+        "name": "mayoral election"
+      }
+    ],
+    "runtime": 177,
+    "vote_average": 7.656,
+    "vote_count": 10971,
+    "popularity": 16.8405,
+    "plot_synopsis": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler."
+  },
+  "Django Unchained::2012": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 37,
+        "name": "Western"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 10084,
+        "name": "rescue"
+      },
+      {
+        "id": 6054,
+        "name": "friendship"
+      },
+      {
+        "id": 801,
+        "name": "bounty hunter"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 2831,
+        "name": "slavery"
+      },
+      {
+        "id": 3136,
+        "name": "plantation"
+      },
+      {
+        "id": 9823,
+        "name": "rivalry"
+      },
+      {
+        "id": 9748,
+        "name": "revenge"
+      },
+      {
+        "id": 10950,
+        "name": "shootout"
+      },
+      {
+        "id": 12425,
+        "name": "racism"
+      },
+      {
+        "id": 15120,
+        "name": "kindness"
+      },
+      {
+        "id": 33780,
+        "name": "dentist"
+      },
+      {
+        "id": 160324,
+        "name": "django"
+      },
+      {
+        "id": 163120,
+        "name": "slave trade"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 188772,
+        "name": "black slave"
+      },
+      {
+        "id": 197531,
+        "name": "agreement"
+      },
+      {
+        "id": 207928,
+        "name": "19th century"
+      },
+      {
+        "id": 253045,
+        "name": "chattanooga"
+      },
+      {
+        "id": 260283,
+        "name": "german"
+      },
+      {
+        "id": 297300,
+        "name": "cotton plantation"
+      },
+      {
+        "id": 297585,
+        "name": "plantation owner"
+      },
+      {
+        "id": 298374,
+        "name": "old west"
+      },
+      {
+        "id": 305941,
+        "name": "western"
+      },
+      {
+        "id": 308216,
+        "name": "1850s"
+      },
+      {
+        "id": 309603,
+        "name": "mississippi"
+      }
+    ],
+    "runtime": 165,
+    "vote_average": 8.2,
+    "vote_count": 26821,
+    "popularity": 12.9276,
+    "plot_synopsis": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+  },
+  "Godzilla Minus One::2023": {
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1299,
+        "name": "monster"
+      },
+      {
+        "id": 697,
+        "name": "loss of loved one"
+      },
+      {
+        "id": 11100,
+        "name": "giant monster"
+      },
+      {
+        "id": 11423,
+        "name": "kamikaze"
+      },
+      {
+        "id": 4263,
+        "name": "duty"
+      },
+      {
+        "id": 4593,
+        "name": "atomic bomb test"
+      },
+      {
+        "id": 9741,
+        "name": "radioactivity"
+      },
+      {
+        "id": 160861,
+        "name": "naval combat"
+      },
+      {
+        "id": 161184,
+        "name": "reboot"
+      },
+      {
+        "id": 161791,
+        "name": "kaiju"
+      },
+      {
+        "id": 162810,
+        "name": "macabre"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 180498,
+        "name": "post war japan"
+      },
+      {
+        "id": 207883,
+        "name": "1940s"
+      },
+      {
+        "id": 226475,
+        "name": "naval battle"
+      },
+      {
+        "id": 244532,
+        "name": "naval battleship"
+      },
+      {
+        "id": 245064,
+        "name": "survivor's guilt"
+      },
+      {
+        "id": 248927,
+        "name": "found family"
+      },
+      {
+        "id": 257384,
+        "name": "godzilla"
+      },
+      {
+        "id": 267475,
+        "name": "war orphan"
+      },
+      {
+        "id": 317204,
+        "name": "tokusatsu"
+      }
+    ],
+    "runtime": 124,
+    "vote_average": 7.6,
+    "vote_count": 2688,
+    "popularity": 11.7098,
+    "plot_synopsis": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror."
+  },
+  "Jurassic Park::1993": {
+    "genres": [
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 911,
+        "name": "exotic island"
+      },
+      {
+        "id": 2041,
+        "name": "island"
+      },
+      {
+        "id": 1764,
+        "name": "triceratops"
+      },
+      {
+        "id": 1765,
+        "name": "brontosaurus"
+      },
+      {
+        "id": 1767,
+        "name": "electric fence"
+      },
+      {
+        "id": 1718,
+        "name": "dna"
+      },
+      {
+        "id": 1720,
+        "name": "tyrannosaurus rex"
+      },
+      {
+        "id": 1719,
+        "name": "paleontology"
+      },
+      {
+        "id": 12616,
+        "name": "dinosaur"
+      },
+      {
+        "id": 155582,
+        "name": "amusement park"
+      },
+      {
+        "id": 158340,
+        "name": "theme park"
+      }
+    ],
+    "runtime": 127,
+    "vote_average": 8.0,
+    "vote_count": 16808,
+    "popularity": 10.2851,
+    "plot_synopsis": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape."
+  },
+  "Babylon::2022": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2857,
+        "name": "elephant"
+      },
+      {
+        "id": 395,
+        "name": "gambling"
+      },
+      {
+        "id": 5305,
+        "name": "gambling debt"
+      },
+      {
+        "id": 886,
+        "name": "movie business"
+      },
+      {
+        "id": 1817,
+        "name": "orgy"
+      },
+      {
+        "id": 2150,
+        "name": "cocaine"
+      },
+      {
+        "id": 5165,
+        "name": "champagne"
+      },
+      {
+        "id": 7464,
+        "name": "alcoholism"
+      },
+      {
+        "id": 12396,
+        "name": "hollywood"
+      },
+      {
+        "id": 33457,
+        "name": "alcoholic"
+      },
+      {
+        "id": 33490,
+        "name": "filmmaking"
+      },
+      {
+        "id": 162262,
+        "name": "movie star"
+      },
+      {
+        "id": 188647,
+        "name": "silent film star"
+      },
+      {
+        "id": 207876,
+        "name": "1920s"
+      },
+      {
+        "id": 227561,
+        "name": "old hollywood"
+      },
+      {
+        "id": 233607,
+        "name": "fading star"
+      },
+      {
+        "id": 267122,
+        "name": "sex"
+      },
+      {
+        "id": 325856,
+        "name": "vibrant"
+      }
+    ],
+    "runtime": 189,
+    "vote_average": 7.375,
+    "vote_count": 3383,
+    "popularity": 10.1059,
+    "plot_synopsis": "A tale of outsized ambition and outrageous excess, tracing the rise and fall of multiple characters in an era of unbridled decadence and depravity during Hollywood's transition from silent films to sound films in the late 1920s."
+  },
+  "Almost Famous::2000": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10402,
+        "name": "Music"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 922,
+        "name": "hotel room"
+      },
+      {
+        "id": 6029,
+        "name": "concert"
+      },
+      {
+        "id": 578,
+        "name": "rock 'n' roll"
+      },
+      {
+        "id": 2080,
+        "name": "stewardess"
+      },
+      {
+        "id": 1803,
+        "name": "drug addiction"
+      },
+      {
+        "id": 1768,
+        "name": "san diego, california"
+      },
+      {
+        "id": 2635,
+        "name": "overdose"
+      },
+      {
+        "id": 4044,
+        "name": "groupie"
+      },
+      {
+        "id": 4045,
+        "name": "music journalist"
+      },
+      {
+        "id": 5540,
+        "name": "heavy metal"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 8181,
+        "name": "swimming pool"
+      },
+      {
+        "id": 10683,
+        "name": "coming of age"
+      },
+      {
+        "id": 10505,
+        "name": "promiscuity"
+      },
+      {
+        "id": 15291,
+        "name": "on the road"
+      },
+      {
+        "id": 157722,
+        "name": "domineering mother"
+      },
+      {
+        "id": 163976,
+        "name": "reconciliation"
+      },
+      {
+        "id": 165402,
+        "name": "semi autobiographical"
+      },
+      {
+        "id": 170333,
+        "name": "innocence lost"
+      },
+      {
+        "id": 178650,
+        "name": "bus trip"
+      },
+      {
+        "id": 180413,
+        "name": "aspiring writer"
+      },
+      {
+        "id": 256330,
+        "name": "mischievous"
+      },
+      {
+        "id": 266753,
+        "name": "cautionary"
+      },
+      {
+        "id": 296608,
+        "name": "teenager"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325781,
+        "name": "celebratory"
+      },
+      {
+        "id": 325784,
+        "name": "comforting"
+      },
+      {
+        "id": 325819,
+        "name": "frustrated"
+      },
+      {
+        "id": 327617,
+        "name": "cleveland, ohio"
+      }
+    ],
+    "runtime": 124,
+    "vote_average": 7.504,
+    "vote_count": 2867,
+    "popularity": 4.6803,
+    "plot_synopsis": "In 1973, 15-year-old William Miller's unabashed love of music and aspiration to become a rock journalist lands him an assignment from Rolling Stone magazine to interview and tour with the up-and-coming band, Stillwater."
+  },
+  "22 Jump Street::2014": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2231,
+        "name": "drug dealer"
+      },
+      {
+        "id": 2466,
+        "name": "sarcasm"
+      },
+      {
+        "id": 3616,
+        "name": "college"
+      },
+      {
+        "id": 3230,
+        "name": "male friendship"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 11199,
+        "name": "undercover cop"
+      },
+      {
+        "id": 167316,
+        "name": "buddy cop"
+      },
+      {
+        "id": 167541,
+        "name": "buddy comedy"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 269769,
+        "name": "based on tv series"
+      }
+    ],
+    "runtime": 112,
+    "vote_average": 6.83,
+    "vote_count": 8110,
+    "popularity": 8.1679,
+    "plot_synopsis": "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college. But when Jenko meets a kindred spirit on the football team, and Schmidt infiltrates the bohemian art major scene, they begin to question their partnership. Now they don't have to just crack the case - they have to figure out if they can have a mature relationship. If these two overgrown adolescents can grow from freshmen into real men, college might be the best thing that ever happened to them."
+  },
+  "Mad Max: Fury Road::2015": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 10084,
+        "name": "rescue"
+      },
+      {
+        "id": 2964,
+        "name": "future"
+      },
+      {
+        "id": 5657,
+        "name": "australia"
+      },
+      {
+        "id": 3713,
+        "name": "chase"
+      },
+      {
+        "id": 4565,
+        "name": "dystopia"
+      },
+      {
+        "id": 4458,
+        "name": "post-apocalyptic future"
+      },
+      {
+        "id": 10349,
+        "name": "survival"
+      },
+      {
+        "id": 10562,
+        "name": "on the run"
+      },
+      {
+        "id": 15291,
+        "name": "on the road"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 155499,
+        "name": "convoy"
+      },
+      {
+        "id": 190954,
+        "name": "peak oil"
+      },
+      {
+        "id": 212516,
+        "name": "dark future"
+      },
+      {
+        "id": 310324,
+        "name": "car"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 325775,
+        "name": "awestruck"
+      },
+      {
+        "id": 325785,
+        "name": "commanding"
+      }
+    ],
+    "runtime": 121,
+    "vote_average": 7.6,
+    "vote_count": 23155,
+    "popularity": 11.9176,
+    "plot_synopsis": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order."
+  },
+  "Collateral::2004": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 444,
+        "name": "taxi"
+      },
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 1562,
+        "name": "hostage"
+      },
+      {
+        "id": 476,
+        "name": "self-fulfilling prophecy"
+      },
+      {
+        "id": 1749,
+        "name": "taxi driver"
+      },
+      {
+        "id": 1812,
+        "name": "fbi"
+      },
+      {
+        "id": 2334,
+        "name": "nightclub"
+      },
+      {
+        "id": 11435,
+        "name": "briefcase"
+      },
+      {
+        "id": 9740,
+        "name": "sociopath"
+      },
+      {
+        "id": 13008,
+        "name": "train"
+      },
+      {
+        "id": 15099,
+        "name": "professional hit"
+      },
+      {
+        "id": 162914,
+        "name": "one night"
+      },
+      {
+        "id": 163656,
+        "name": "gun violence"
+      },
+      {
+        "id": 167377,
+        "name": "lapd"
+      },
+      {
+        "id": 177964,
+        "name": "contract killer"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 207413,
+        "name": "cabbie"
+      },
+      {
+        "id": 208156,
+        "name": "frantic"
+      },
+      {
+        "id": 220205,
+        "name": "federal prosecutor"
+      },
+      {
+        "id": 261264,
+        "name": "dreary"
+      },
+      {
+        "id": 266753,
+        "name": "cautionary"
+      },
+      {
+        "id": 279362,
+        "name": "taxi ride"
+      },
+      {
+        "id": 319190,
+        "name": "suspense thriller"
+      },
+      {
+        "id": 324757,
+        "name": "los angeles airport (lax)"
+      },
+      {
+        "id": 325778,
+        "name": "bold"
+      }
+    ],
+    "runtime": 120,
+    "vote_average": 7.23,
+    "vote_count": 5814,
+    "popularity": 6.1929,
+    "plot_synopsis": "Cab driver Max picks up a man who offers him $600 to drive him around. But the promise of easy money sours when Max realizes his fare is an assassin."
+  },
+  "Past Lives::2023": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 2356,
+        "name": "immigrant"
+      },
+      {
+        "id": 6054,
+        "name": "friendship"
+      },
+      {
+        "id": 5609,
+        "name": "nostalgia"
+      },
+      {
+        "id": 7439,
+        "name": "woman between two men"
+      },
+      {
+        "id": 10188,
+        "name": "interracial marriage"
+      },
+      {
+        "id": 10855,
+        "name": "fate"
+      },
+      {
+        "id": 10965,
+        "name": "playwright"
+      },
+      {
+        "id": 148540,
+        "name": "married woman"
+      },
+      {
+        "id": 160246,
+        "name": "childhood friends"
+      },
+      {
+        "id": 165402,
+        "name": "semi autobiographical"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 231519,
+        "name": "korean american"
+      },
+      {
+        "id": 234212,
+        "name": "childhood sweethearts"
+      },
+      {
+        "id": 248870,
+        "name": "memories"
+      },
+      {
+        "id": 272877,
+        "name": "korean"
+      },
+      {
+        "id": 280028,
+        "name": "asian american"
+      },
+      {
+        "id": 281237,
+        "name": "independent film"
+      },
+      {
+        "id": 290327,
+        "name": "seoul, south korea"
+      },
+      {
+        "id": 351085,
+        "name": "reconnect with friend"
+      }
+    ],
+    "runtime": 106,
+    "vote_average": 7.7,
+    "vote_count": 1938,
+    "popularity": 10.4316,
+    "plot_synopsis": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life."
+  },
+  "Mamma Mia!::2008": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 641,
+        "name": "single parent"
+      },
+      {
+        "id": 970,
+        "name": "parent child relationship"
+      },
+      {
+        "id": 1200,
+        "name": "greece"
+      },
+      {
+        "id": 4344,
+        "name": "musical"
+      },
+      {
+        "id": 9799,
+        "name": "romcom"
+      },
+      {
+        "id": 10181,
+        "name": "based on play or musical"
+      },
+      {
+        "id": 14670,
+        "name": "unknown father"
+      },
+      {
+        "id": 14768,
+        "name": "single mother"
+      },
+      {
+        "id": 41011,
+        "name": "based on song, poem or rhyme"
+      },
+      {
+        "id": 158039,
+        "name": "hotel manager"
+      },
+      {
+        "id": 165100,
+        "name": "young love"
+      },
+      {
+        "id": 174363,
+        "name": "greek island"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 237463,
+        "name": "imminent wedding"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 286529,
+        "name": "jukebox musical"
+      },
+      {
+        "id": 312365,
+        "name": "past history"
+      },
+      {
+        "id": 315052,
+        "name": "daughter's wedding"
+      },
+      {
+        "id": 316611,
+        "name": "abba"
+      },
+      {
+        "id": 325784,
+        "name": "comforting"
+      },
+      {
+        "id": 325809,
+        "name": "enthusiastic"
+      }
+    ],
+    "runtime": 108,
+    "vote_average": 6.978,
+    "vote_count": 6701,
+    "popularity": 7.2439,
+    "plot_synopsis": "A spirited young bride-to-be living with her single mother on a small Greek island secretly invites three of her mother's ex-boyfriends in hope of finding her biological father to walk her down the aisle."
+  },
+  "Making of The Last of Us::2023": {
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 9817,
+        "name": "behind the scenes"
+      },
+      {
+        "id": 50244,
+        "name": "making of"
+      }
+    ],
+    "runtime": 32,
+    "vote_average": 6.8,
+    "vote_count": 23,
+    "popularity": 3.0744,
+    "plot_synopsis": "Featuring extensive interviews with the cast and crew, this all-access documentary gives a rare glimpse into the daunting behind-the-scenes efforts that went into the production of the HBO Original smash hit series The Last of Us."
+  },
+  "Monkey Man::2024": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 240424,
+        "name": "indian"
+      },
+      {
+        "id": 252204,
+        "name": "revenge thriller"
+      },
+      {
+        "id": 302132,
+        "name": "action thriller"
+      },
+      {
+        "id": 322882,
+        "name": "night club"
+      },
+      {
+        "id": 347627,
+        "name": "\u0442\u0440\u0430\u043d\u0441\u0433\u0435\u043d\u0434\u0435\u0440"
+      },
+      {
+        "id": 347628,
+        "name": "\u043b\u0433\u0431\u0442"
+      }
+    ],
+    "runtime": 121,
+    "vote_average": 6.902,
+    "vote_count": 1154,
+    "popularity": 6.1333,
+    "plot_synopsis": "Kid is an anonymous young man who ekes out a meager living in an underground fight club where, night after night, wearing a gorilla mask, he is beaten bloody by more popular fighters for cash. After years of suppressed rage, Kid discovers a way to infiltrate the enclave of the city\u2019s sinister elite. As his childhood trauma boils over, his mysteriously scarred hands unleash an explosive campaign of retribution to settle the score with the men who took everything from him."
+  },
+  "Furiosa: A Mad Max Saga::2024": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3713,
+        "name": "chase"
+      },
+      {
+        "id": 4458,
+        "name": "post-apocalyptic future"
+      },
+      {
+        "id": 4267,
+        "name": "warlord"
+      },
+      {
+        "id": 9675,
+        "name": "prequel"
+      },
+      {
+        "id": 10689,
+        "name": "wasteland"
+      },
+      {
+        "id": 15285,
+        "name": "spin off"
+      },
+      {
+        "id": 15354,
+        "name": "struggle for survival"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 168297,
+        "name": "tyrant"
+      },
+      {
+        "id": 189433,
+        "name": "tyranny"
+      },
+      {
+        "id": 194226,
+        "name": "masculinity"
+      },
+      {
+        "id": 210162,
+        "name": "grim"
+      },
+      {
+        "id": 220435,
+        "name": "revenge murderer"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 251667,
+        "name": "anxious"
+      },
+      {
+        "id": 265839,
+        "name": "child abduction"
+      },
+      {
+        "id": 310324,
+        "name": "car"
+      },
+      {
+        "id": 325778,
+        "name": "bold"
+      },
+      {
+        "id": 325779,
+        "name": "brisk"
+      }
+    ],
+    "runtime": 149,
+    "vote_average": 7.476,
+    "vote_count": 4213,
+    "popularity": 19.1847,
+    "plot_synopsis": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home."
+  },
+  "Nosferatu::2024": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5198,
+        "name": "cold"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 3133,
+        "name": "vampire"
+      },
+      {
+        "id": 5919,
+        "name": "necrophilia"
+      },
+      {
+        "id": 1664,
+        "name": "eroticism"
+      },
+      {
+        "id": 9712,
+        "name": "possession"
+      },
+      {
+        "id": 5567,
+        "name": "w\u00fcrzburg"
+      },
+      {
+        "id": 9714,
+        "name": "remake"
+      },
+      {
+        "id": 15032,
+        "name": "gothic horror"
+      },
+      {
+        "id": 33513,
+        "name": "desire"
+      },
+      {
+        "id": 178895,
+        "name": "questioning"
+      },
+      {
+        "id": 183955,
+        "name": "somnambulism"
+      },
+      {
+        "id": 188959,
+        "name": "plague"
+      },
+      {
+        "id": 207928,
+        "name": "19th century"
+      },
+      {
+        "id": 212634,
+        "name": "dread"
+      },
+      {
+        "id": 224795,
+        "name": "drinking blood"
+      },
+      {
+        "id": 239797,
+        "name": "complex"
+      },
+      {
+        "id": 256183,
+        "name": "supernatural horror"
+      },
+      {
+        "id": 286194,
+        "name": "period piece"
+      },
+      {
+        "id": 291153,
+        "name": "grand"
+      },
+      {
+        "id": 296659,
+        "name": "1830s"
+      },
+      {
+        "id": 301004,
+        "name": "nightmares"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325822,
+        "name": "gloomy"
+      }
+    ],
+    "runtime": 133,
+    "vote_average": 6.719,
+    "vote_count": 2731,
+    "popularity": 17.48,
+    "plot_synopsis": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake."
+  },
+  "Once Upon a Time... in Hollywood::2019": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 886,
+        "name": "movie business"
+      },
+      {
+        "id": 3230,
+        "name": "male friendship"
+      },
+      {
+        "id": 6158,
+        "name": "cult"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 6562,
+        "name": "celebrity"
+      },
+      {
+        "id": 10232,
+        "name": "fame"
+      },
+      {
+        "id": 12396,
+        "name": "hollywood"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 12995,
+        "name": "historical fiction"
+      },
+      {
+        "id": 15214,
+        "name": "buddy"
+      },
+      {
+        "id": 33490,
+        "name": "filmmaking"
+      },
+      {
+        "id": 158988,
+        "name": "struggling actor"
+      },
+      {
+        "id": 163055,
+        "name": "satanic cult"
+      },
+      {
+        "id": 163079,
+        "name": "revisionist history"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 185242,
+        "name": "western filmmaking"
+      },
+      {
+        "id": 194406,
+        "name": "manson family murders"
+      },
+      {
+        "id": 199524,
+        "name": "disturbed"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      },
+      {
+        "id": 221710,
+        "name": "stunt double"
+      },
+      {
+        "id": 227561,
+        "name": "old hollywood"
+      },
+      {
+        "id": 293092,
+        "name": "sharon tate"
+      },
+      {
+        "id": 309138,
+        "name": "charles manson"
+      },
+      {
+        "id": 325798,
+        "name": "disgusted"
+      }
+    ],
+    "runtime": 162,
+    "vote_average": 7.428,
+    "vote_count": 13938,
+    "popularity": 10.1283,
+    "plot_synopsis": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski\u2026"
+  },
+  "Lady Bird::2017": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6054,
+        "name": "friendship"
+      },
+      {
+        "id": 11254,
+        "name": "loss of virginity"
+      },
+      {
+        "id": 10683,
+        "name": "coming of age"
+      },
+      {
+        "id": 10049,
+        "name": "teen angst"
+      },
+      {
+        "id": 11710,
+        "name": "high school graduation"
+      },
+      {
+        "id": 10809,
+        "name": "teenage girl"
+      },
+      {
+        "id": 12392,
+        "name": "best friend"
+      },
+      {
+        "id": 14549,
+        "name": "loss of job"
+      },
+      {
+        "id": 33910,
+        "name": "high school student"
+      },
+      {
+        "id": 34125,
+        "name": "catholic school"
+      },
+      {
+        "id": 157303,
+        "name": "first love"
+      },
+      {
+        "id": 165402,
+        "name": "semi autobiographical"
+      },
+      {
+        "id": 172112,
+        "name": "sacramento"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 240736,
+        "name": "college applications"
+      },
+      {
+        "id": 252104,
+        "name": "2000s"
+      }
+    ],
+    "runtime": 94,
+    "vote_average": 7.3,
+    "vote_count": 8706,
+    "popularity": 4.6392,
+    "plot_synopsis": "Lady Bird McPherson, a strong willed, deeply opinionated, artistic 17 year old comes of age in Sacramento. Her relationship with her mother and her upbringing are questioned and tested as she plans to head off to college."
+  },
+  "Carrie::1976": {
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6270,
+        "name": "high school"
+      },
+      {
+        "id": 516,
+        "name": "child abuse"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1533,
+        "name": "isolation"
+      },
+      {
+        "id": 1227,
+        "name": "cemetery"
+      },
+      {
+        "id": 1674,
+        "name": "stage"
+      },
+      {
+        "id": 3036,
+        "name": "bible"
+      },
+      {
+        "id": 5086,
+        "name": "telekinesis"
+      },
+      {
+        "id": 10508,
+        "name": "teacher"
+      },
+      {
+        "id": 9748,
+        "name": "revenge"
+      },
+      {
+        "id": 10048,
+        "name": "unrequited love"
+      },
+      {
+        "id": 10266,
+        "name": "prom"
+      },
+      {
+        "id": 11001,
+        "name": "religion"
+      },
+      {
+        "id": 10809,
+        "name": "teenage girl"
+      },
+      {
+        "id": 10873,
+        "name": "school"
+      },
+      {
+        "id": 14624,
+        "name": "cruelty"
+      },
+      {
+        "id": 14837,
+        "name": "rage"
+      },
+      {
+        "id": 33740,
+        "name": "humiliation"
+      },
+      {
+        "id": 41380,
+        "name": "crucifix"
+      },
+      {
+        "id": 164346,
+        "name": "praying"
+      },
+      {
+        "id": 170356,
+        "name": "outsider"
+      },
+      {
+        "id": 173971,
+        "name": "taunting"
+      },
+      {
+        "id": 201864,
+        "name": "hostile"
+      },
+      {
+        "id": 222314,
+        "name": "abusive mother"
+      },
+      {
+        "id": 226602,
+        "name": "firestorm"
+      },
+      {
+        "id": 239680,
+        "name": "religious horror"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 256183,
+        "name": "supernatural horror"
+      },
+      {
+        "id": 295738,
+        "name": "school bullying"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 325825,
+        "name": "horrified"
+      },
+      {
+        "id": 325854,
+        "name": "tragic"
+      },
+      {
+        "id": 342995,
+        "name": "teen scream"
+      }
+    ],
+    "runtime": 98,
+    "vote_average": 7.3,
+    "vote_count": 3990,
+    "popularity": 5.7885,
+    "plot_synopsis": "Withdrawn and sensitive teen Carrie White faces taunting from classmates at school and abuse from her fanatically pious mother. When strange occurrences start happening around Carrie, she begins to suspect that she has supernatural powers."
+  },
+  "The Holdovers::2023": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2957,
+        "name": "vietnam war"
+      },
+      {
+        "id": 1442,
+        "name": "winter"
+      },
+      {
+        "id": 6271,
+        "name": "boarding school"
+      },
+      {
+        "id": 65,
+        "name": "holiday"
+      },
+      {
+        "id": 1680,
+        "name": "boston, massachusetts"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 7464,
+        "name": "alcoholism"
+      },
+      {
+        "id": 9872,
+        "name": "grief"
+      },
+      {
+        "id": 9789,
+        "name": "misfit"
+      },
+      {
+        "id": 41329,
+        "name": "mental illness"
+      },
+      {
+        "id": 41355,
+        "name": "teacher student relationship"
+      },
+      {
+        "id": 41393,
+        "name": "new england"
+      },
+      {
+        "id": 164246,
+        "name": "nostalgic"
+      },
+      {
+        "id": 179359,
+        "name": "boys' boarding school"
+      },
+      {
+        "id": 207317,
+        "name": "christmas"
+      },
+      {
+        "id": 224213,
+        "name": "winter break"
+      },
+      {
+        "id": 233676,
+        "name": "troubled youth"
+      },
+      {
+        "id": 248519,
+        "name": "loss of son"
+      },
+      {
+        "id": 259376,
+        "name": "playful"
+      },
+      {
+        "id": 292593,
+        "name": "intimate"
+      },
+      {
+        "id": 305459,
+        "name": "christmas time"
+      },
+      {
+        "id": 308993,
+        "name": "cook"
+      },
+      {
+        "id": 319319,
+        "name": "sentimental"
+      },
+      {
+        "id": 320420,
+        "name": "hilarious"
+      },
+      {
+        "id": 325786,
+        "name": "compassionate"
+      }
+    ],
+    "runtime": 133,
+    "vote_average": 7.681,
+    "vote_count": 2022,
+    "popularity": 6.8388,
+    "plot_synopsis": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them \u2014 a damaged, brainy troublemaker \u2014 and with the school\u2019s head cook, who has just lost a son in Vietnam."
+  },
+  "Dune: Part Two::2024": {
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6917,
+        "name": "epic"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1721,
+        "name": "fight"
+      },
+      {
+        "id": 6078,
+        "name": "politics"
+      },
+      {
+        "id": 1965,
+        "name": "sandstorm"
+      },
+      {
+        "id": 5789,
+        "name": "sand"
+      },
+      {
+        "id": 6074,
+        "name": "spice"
+      },
+      {
+        "id": 4238,
+        "name": "chosen one"
+      },
+      {
+        "id": 6158,
+        "name": "cult"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 9840,
+        "name": "romance"
+      },
+      {
+        "id": 10614,
+        "name": "tragedy"
+      },
+      {
+        "id": 11239,
+        "name": "distant future"
+      },
+      {
+        "id": 10044,
+        "name": "tragic hero"
+      },
+      {
+        "id": 13031,
+        "name": "creature"
+      },
+      {
+        "id": 13194,
+        "name": "planet"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 40850,
+        "name": "destiny"
+      },
+      {
+        "id": 158144,
+        "name": "giant worm"
+      },
+      {
+        "id": 161176,
+        "name": "space opera"
+      },
+      {
+        "id": 178080,
+        "name": "sand dune"
+      },
+      {
+        "id": 180671,
+        "name": "allegorical"
+      },
+      {
+        "id": 194063,
+        "name": "messiah"
+      },
+      {
+        "id": 199660,
+        "name": "fall from grace"
+      },
+      {
+        "id": 232766,
+        "name": "vengeance"
+      },
+      {
+        "id": 282218,
+        "name": "religious allegory"
+      },
+      {
+        "id": 286709,
+        "name": "giant creature"
+      },
+      {
+        "id": 288793,
+        "name": "power"
+      },
+      {
+        "id": 312898,
+        "name": "violence"
+      },
+      {
+        "id": 321464,
+        "name": "intense"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      },
+      {
+        "id": 325766,
+        "name": "antagonistic"
+      },
+      {
+        "id": 325773,
+        "name": "audacious"
+      },
+      {
+        "id": 325813,
+        "name": "exuberant"
+      },
+      {
+        "id": 325835,
+        "name": "melodramatic"
+      }
+    ],
+    "runtime": 167,
+    "vote_average": 8.145,
+    "vote_count": 6748,
+    "popularity": 29.4924,
+    "plot_synopsis": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee."
+  },
+  "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan::2006": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 736,
+        "name": "journalist"
+      },
+      {
+        "id": 387,
+        "name": "california"
+      },
+      {
+        "id": 549,
+        "name": "prostitute"
+      },
+      {
+        "id": 1019,
+        "name": "rodeo"
+      },
+      {
+        "id": 2475,
+        "name": "kazakhstan"
+      },
+      {
+        "id": 2477,
+        "name": "demeanor course"
+      },
+      {
+        "id": 2479,
+        "name": "chicken"
+      },
+      {
+        "id": 6268,
+        "name": "driving school"
+      },
+      {
+        "id": 8201,
+        "name": "satire"
+      },
+      {
+        "id": 11800,
+        "name": "mockumentary"
+      },
+      {
+        "id": 11514,
+        "name": "social satire"
+      },
+      {
+        "id": 10144,
+        "name": "antisemitism"
+      },
+      {
+        "id": 10468,
+        "name": "bear"
+      },
+      {
+        "id": 12193,
+        "name": "reporter"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      }
+    ],
+    "runtime": 84,
+    "vote_average": 6.778,
+    "vote_count": 5561,
+    "popularity": 3.5747,
+    "plot_synopsis": "Kazakh journalist Borat Sagdiyev travels to America to make a documentary. As he zigzags across the nation, Borat meets real people in real situations with hysterical consequences. His backwards behavior generates strong reactions around him exposing prejudices and hypocrisies in American culture."
+  },
+  "Guardians of the Galaxy Vol. 3::2023": {
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1701,
+        "name": "hero"
+      },
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 4232,
+        "name": "melancholy"
+      },
+      {
+        "id": 10125,
+        "name": "mad scientist"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 155030,
+        "name": "superhero team"
+      },
+      {
+        "id": 161176,
+        "name": "space opera"
+      },
+      {
+        "id": 162881,
+        "name": "raccoon"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 180547,
+        "name": "marvel cinematic universe (mcu)"
+      },
+      {
+        "id": 202760,
+        "name": "hopeless"
+      },
+      {
+        "id": 231295,
+        "name": "cosmic"
+      },
+      {
+        "id": 252634,
+        "name": "outer space"
+      },
+      {
+        "id": 267488,
+        "name": "chosen family"
+      },
+      {
+        "id": 288816,
+        "name": "lighthearted"
+      },
+      {
+        "id": 320420,
+        "name": "hilarious"
+      },
+      {
+        "id": 325782,
+        "name": "cheerful"
+      },
+      {
+        "id": 325799,
+        "name": "disheartening"
+      },
+      {
+        "id": 325806,
+        "name": "empathetic"
+      },
+      {
+        "id": 325809,
+        "name": "enthusiastic"
+      },
+      {
+        "id": 325810,
+        "name": "euphoric"
+      },
+      {
+        "id": 325824,
+        "name": "hopeful"
+      },
+      {
+        "id": 325851,
+        "name": "straightforward"
+      },
+      {
+        "id": 325853,
+        "name": "sympathetic"
+      }
+    ],
+    "runtime": 150,
+    "vote_average": 7.94,
+    "vote_count": 7417,
+    "popularity": 16.4507,
+    "plot_synopsis": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them."
+  },
+  "Fallen Angels::1995": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 782,
+        "name": "assassin"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 395,
+        "name": "gambling"
+      },
+      {
+        "id": 3170,
+        "name": "cigarette"
+      },
+      {
+        "id": 3307,
+        "name": "surreal"
+      },
+      {
+        "id": 4552,
+        "name": "beer"
+      },
+      {
+        "id": 9673,
+        "name": "love"
+      },
+      {
+        "id": 12354,
+        "name": "hong kong"
+      },
+      {
+        "id": 13017,
+        "name": "drifter"
+      },
+      {
+        "id": 14677,
+        "name": "bullet wound"
+      },
+      {
+        "id": 15127,
+        "name": "killer"
+      },
+      {
+        "id": 33451,
+        "name": "masturbation"
+      },
+      {
+        "id": 34262,
+        "name": "infatuation"
+      },
+      {
+        "id": 177317,
+        "name": "ice cream truck"
+      },
+      {
+        "id": 197582,
+        "name": "mysterious"
+      },
+      {
+        "id": 209673,
+        "name": "calm"
+      },
+      {
+        "id": 267876,
+        "name": "relaxed"
+      },
+      {
+        "id": 324429,
+        "name": "romantic"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      }
+    ],
+    "runtime": 98,
+    "vote_average": 7.684,
+    "vote_count": 1136,
+    "popularity": 7.6527,
+    "plot_synopsis": "An assassin goes through obstacles as he attempts to escape his violent lifestyle despite the opposition of his partner, who is secretly attracted to him."
+  },
+  "Godzilla::1954": {
+    "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3799,
+        "name": "ship"
+      },
+      {
+        "id": 2041,
+        "name": "island"
+      },
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 1815,
+        "name": "atomic bomb"
+      },
+      {
+        "id": 2580,
+        "name": "shipwreck"
+      },
+      {
+        "id": 11100,
+        "name": "giant monster"
+      },
+      {
+        "id": 3275,
+        "name": "nuclear radiation"
+      },
+      {
+        "id": 12369,
+        "name": "tokyo, japan"
+      },
+      {
+        "id": 12616,
+        "name": "dinosaur"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 158126,
+        "name": "creature feature"
+      },
+      {
+        "id": 161791,
+        "name": "kaiju"
+      },
+      {
+        "id": 180498,
+        "name": "post war japan"
+      },
+      {
+        "id": 223059,
+        "name": "animal horror"
+      },
+      {
+        "id": 257384,
+        "name": "godzilla"
+      },
+      {
+        "id": 317204,
+        "name": "tokusatsu"
+      }
+    ],
+    "runtime": 96,
+    "vote_average": 7.6,
+    "vote_count": 1022,
+    "popularity": 4.1128,
+    "plot_synopsis": "Japan is thrown into a panic after several ships are sunk near Odo Island. An expedition to the island led by Dr. Kyohei Yamane soon discover something far more devastating than imagined in the form of a 50 meter tall monster whom the natives call Gojira. Now the monster begins a rampage that threatens to destroy not only Japan, but the rest of the world as well."
+  },
+  "The Thing::1982": {
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1612,
+        "name": "spacecraft"
+      },
+      {
+        "id": 720,
+        "name": "helicopter"
+      },
+      {
+        "id": 1826,
+        "name": "space marine"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1533,
+        "name": "isolation"
+      },
+      {
+        "id": 2766,
+        "name": "mutation"
+      },
+      {
+        "id": 2340,
+        "name": "paranoia"
+      },
+      {
+        "id": 2968,
+        "name": "grave"
+      },
+      {
+        "id": 3373,
+        "name": "snowstorm"
+      },
+      {
+        "id": 4713,
+        "name": "research station"
+      },
+      {
+        "id": 4862,
+        "name": "alien life-form"
+      },
+      {
+        "id": 9951,
+        "name": "alien"
+      },
+      {
+        "id": 9714,
+        "name": "remake"
+      },
+      {
+        "id": 10349,
+        "name": "survival"
+      },
+      {
+        "id": 13031,
+        "name": "creature"
+      },
+      {
+        "id": 14605,
+        "name": "helicopter pilot"
+      },
+      {
+        "id": 14728,
+        "name": "antarctica"
+      },
+      {
+        "id": 14729,
+        "name": "shape shifting alien"
+      },
+      {
+        "id": 15250,
+        "name": "alien infection"
+      },
+      {
+        "id": 50009,
+        "name": "survival horror"
+      },
+      {
+        "id": 155821,
+        "name": "sled dogs"
+      },
+      {
+        "id": 183787,
+        "name": "alien monster"
+      },
+      {
+        "id": 209673,
+        "name": "calm"
+      },
+      {
+        "id": 220392,
+        "name": "alien parasites"
+      },
+      {
+        "id": 238467,
+        "name": "isolated place"
+      },
+      {
+        "id": 254703,
+        "name": "uncertainty"
+      },
+      {
+        "id": 270023,
+        "name": "blood test"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 286954,
+        "name": "ambiguity"
+      },
+      {
+        "id": 293649,
+        "name": "provocative"
+      },
+      {
+        "id": 315053,
+        "name": "critical"
+      },
+      {
+        "id": 325798,
+        "name": "disgusted"
+      },
+      {
+        "id": 343963,
+        "name": "antarctic"
+      }
+    ],
+    "runtime": 109,
+    "vote_average": 8.1,
+    "vote_count": 7325,
+    "popularity": 7.3236,
+    "plot_synopsis": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror... and becomes one of them."
+  },
+  "The Fabelmans::2022": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6270,
+        "name": "high school"
+      },
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 1859,
+        "name": "arizona"
+      },
+      {
+        "id": 6733,
+        "name": "bullying"
+      },
+      {
+        "id": 10235,
+        "name": "family relationships"
+      },
+      {
+        "id": 10683,
+        "name": "coming of age"
+      },
+      {
+        "id": 10144,
+        "name": "antisemitism"
+      },
+      {
+        "id": 18068,
+        "name": "teenage boy"
+      },
+      {
+        "id": 33490,
+        "name": "filmmaking"
+      },
+      {
+        "id": 157955,
+        "name": "childhood"
+      },
+      {
+        "id": 165402,
+        "name": "semi autobiographical"
+      },
+      {
+        "id": 178210,
+        "name": "marital problem"
+      },
+      {
+        "id": 181329,
+        "name": "big dreams"
+      },
+      {
+        "id": 240119,
+        "name": "father son relationship"
+      },
+      {
+        "id": 240237,
+        "name": "mother son relationship"
+      },
+      {
+        "id": 269808,
+        "name": "introspective"
+      },
+      {
+        "id": 325762,
+        "name": "adoring"
+      },
+      {
+        "id": 325784,
+        "name": "comforting"
+      },
+      {
+        "id": 325786,
+        "name": "compassionate"
+      },
+      {
+        "id": 325806,
+        "name": "empathetic"
+      },
+      {
+        "id": 325853,
+        "name": "sympathetic"
+      },
+      {
+        "id": 348184,
+        "name": "young filmmaker"
+      }
+    ],
+    "runtime": 151,
+    "vote_average": 7.596,
+    "vote_count": 2494,
+    "popularity": 4.083,
+    "plot_synopsis": "Growing up in post-World War II era Arizona, young Sammy Fabelman aspires to become a filmmaker as he reaches adolescence, but soon discovers a shattering family secret and explores how the power of films can help him see the truth."
+  },
+  "Singin' in the Rain::1952": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3177,
+        "name": "fan"
+      },
+      {
+        "id": 4344,
+        "name": "musical"
+      },
+      {
+        "id": 9104,
+        "name": "partner"
+      },
+      {
+        "id": 9732,
+        "name": "film in film"
+      },
+      {
+        "id": 12396,
+        "name": "hollywood"
+      },
+      {
+        "id": 156028,
+        "name": "broadway"
+      },
+      {
+        "id": 161046,
+        "name": "dancing in the street"
+      },
+      {
+        "id": 163070,
+        "name": "burlesque"
+      },
+      {
+        "id": 164090,
+        "name": "audience"
+      },
+      {
+        "id": 164623,
+        "name": "chorus girl"
+      },
+      {
+        "id": 164628,
+        "name": "diction coach"
+      },
+      {
+        "id": 164636,
+        "name": "pearl necklace"
+      },
+      {
+        "id": 164641,
+        "name": "flapper"
+      },
+      {
+        "id": 188647,
+        "name": "silent film star"
+      },
+      {
+        "id": 199662,
+        "name": "squeaky voice"
+      },
+      {
+        "id": 207317,
+        "name": "christmas"
+      },
+      {
+        "id": 207876,
+        "name": "1920s"
+      },
+      {
+        "id": 227561,
+        "name": "old hollywood"
+      },
+      {
+        "id": 293649,
+        "name": "provocative"
+      },
+      {
+        "id": 319319,
+        "name": "sentimental"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325813,
+        "name": "exuberant"
+      }
+    ],
+    "runtime": 103,
+    "vote_average": 8.146,
+    "vote_count": 3260,
+    "popularity": 3.4613,
+    "plot_synopsis": "In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound."
+  },
+  "The Irishman::2019": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 520,
+        "name": "chicago, illinois"
+      },
+      {
+        "id": 276,
+        "name": "philadelphia, pennsylvania"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 1543,
+        "name": "war veteran"
+      },
+      {
+        "id": 904,
+        "name": "pennsylvania, usa"
+      },
+      {
+        "id": 3149,
+        "name": "gangster"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 1857,
+        "name": "irish-american"
+      },
+      {
+        "id": 3230,
+        "name": "male friendship"
+      },
+      {
+        "id": 4995,
+        "name": "aging"
+      },
+      {
+        "id": 10235,
+        "name": "family relationships"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10291,
+        "name": "organized crime"
+      },
+      {
+        "id": 10391,
+        "name": "mafia"
+      },
+      {
+        "id": 11001,
+        "name": "religion"
+      },
+      {
+        "id": 18021,
+        "name": "detroit, michigan"
+      },
+      {
+        "id": 155538,
+        "name": "sicilian mafia"
+      },
+      {
+        "id": 157171,
+        "name": "nonlinear timeline"
+      },
+      {
+        "id": 164186,
+        "name": "character study"
+      },
+      {
+        "id": 164400,
+        "name": "labor union"
+      },
+      {
+        "id": 208611,
+        "name": "1950s"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      },
+      {
+        "id": 211706,
+        "name": "mob family"
+      },
+      {
+        "id": 231921,
+        "name": "jimmy hoffa"
+      },
+      {
+        "id": 236369,
+        "name": "voiceover"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 280520,
+        "name": "criminal as protagonist"
+      },
+      {
+        "id": 280521,
+        "name": "killer as protagonist"
+      }
+    ],
+    "runtime": 209,
+    "vote_average": 7.59,
+    "vote_count": 7061,
+    "popularity": 6.3253,
+    "plot_synopsis": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years."
+  },
+  "Oppenheimer::2023": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1815,
+        "name": "atomic bomb"
+      },
+      {
+        "id": 1627,
+        "name": "patriotism"
+      },
+      {
+        "id": 1508,
+        "name": "new mexico"
+      },
+      {
+        "id": 1956,
+        "name": "world war ii"
+      },
+      {
+        "id": 4593,
+        "name": "atomic bomb test"
+      },
+      {
+        "id": 6012,
+        "name": "physics"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 10144,
+        "name": "antisemitism"
+      },
+      {
+        "id": 15271,
+        "name": "interrogation"
+      },
+      {
+        "id": 33720,
+        "name": "guilt"
+      },
+      {
+        "id": 159289,
+        "name": "historical event"
+      },
+      {
+        "id": 160381,
+        "name": "nuclear weapons"
+      },
+      {
+        "id": 173644,
+        "name": "communism"
+      },
+      {
+        "id": 173686,
+        "name": "red scare"
+      },
+      {
+        "id": 194595,
+        "name": "mccarthyism"
+      },
+      {
+        "id": 195022,
+        "name": "top secret project"
+      },
+      {
+        "id": 198423,
+        "name": "moral dilemma"
+      },
+      {
+        "id": 206515,
+        "name": "usa politics"
+      },
+      {
+        "id": 207883,
+        "name": "1940s"
+      },
+      {
+        "id": 285398,
+        "name": "20th century"
+      },
+      {
+        "id": 285777,
+        "name": "manhattan project"
+      },
+      {
+        "id": 297020,
+        "name": "los alamos"
+      }
+    ],
+    "runtime": 181,
+    "vote_average": 8.1,
+    "vote_count": 10338,
+    "popularity": 29.4791,
+    "plot_synopsis": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II."
+  },
+  "Casino::1995": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 726,
+        "name": "drug abuse"
+      },
+      {
+        "id": 585,
+        "name": "casino"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 383,
+        "name": "poker"
+      },
+      {
+        "id": 700,
+        "name": "italian american"
+      },
+      {
+        "id": 395,
+        "name": "gambling"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 1812,
+        "name": "fbi"
+      },
+      {
+        "id": 1667,
+        "name": "pimp"
+      },
+      {
+        "id": 5332,
+        "name": "greed"
+      },
+      {
+        "id": 2150,
+        "name": "cocaine"
+      },
+      {
+        "id": 2635,
+        "name": "overdose"
+      },
+      {
+        "id": 6038,
+        "name": "marriage"
+      },
+      {
+        "id": 7336,
+        "name": "car bomb"
+      },
+      {
+        "id": 6974,
+        "name": "rise and fall"
+      },
+      {
+        "id": 10594,
+        "name": "money"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10291,
+        "name": "organized crime"
+      },
+      {
+        "id": 10391,
+        "name": "mafia"
+      },
+      {
+        "id": 11211,
+        "name": "jewish american"
+      },
+      {
+        "id": 14570,
+        "name": "las vegas"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 187023,
+        "name": "safe deposit box"
+      },
+      {
+        "id": 208289,
+        "name": "1980s"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 332598,
+        "name": "brutal violence"
+      },
+      {
+        "id": 334553,
+        "name": "fbi surveillance"
+      }
+    ],
+    "runtime": 179,
+    "vote_average": 7.997,
+    "vote_count": 6070,
+    "popularity": 7.5311,
+    "plot_synopsis": "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger."
+  },
+  "Planet Terror::2007": {
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5138,
+        "name": "gas"
+      },
+      {
+        "id": 697,
+        "name": "loss of loved one"
+      },
+      {
+        "id": 4409,
+        "name": "military base"
+      },
+      {
+        "id": 11532,
+        "name": "grindhouse"
+      },
+      {
+        "id": 12377,
+        "name": "zombie"
+      }
+    ],
+    "runtime": 105,
+    "vote_average": 6.68,
+    "vote_count": 3587,
+    "popularity": 3.0306,
+    "plot_synopsis": "Two doctors find their graveyard shift inundated with townspeople ravaged by sores. Among the wounded is Cherry Darling, a dancer whose leg was ripped from her body. As the invalids quickly become enraged aggressors, Cherry and her ex-boyfriend El Wray lead a team of accidental warriors into the night."
+  },
+  "Heat::1995": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 642,
+        "name": "robbery"
+      },
+      {
+        "id": 3713,
+        "name": "chase"
+      },
+      {
+        "id": 1523,
+        "name": "obsession"
+      },
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 10051,
+        "name": "heist"
+      },
+      {
+        "id": 9727,
+        "name": "thief"
+      },
+      {
+        "id": 9812,
+        "name": "honor"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10085,
+        "name": "betrayal"
+      },
+      {
+        "id": 10726,
+        "name": "gang"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 15076,
+        "name": "cat and mouse"
+      },
+      {
+        "id": 15363,
+        "name": "bank robbery"
+      },
+      {
+        "id": 18023,
+        "name": "criminal mastermind"
+      },
+      {
+        "id": 33424,
+        "name": "cynical"
+      },
+      {
+        "id": 156121,
+        "name": "ex-con"
+      },
+      {
+        "id": 159434,
+        "name": "one last job"
+      },
+      {
+        "id": 167104,
+        "name": "loner"
+      },
+      {
+        "id": 192261,
+        "name": "bank job"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 214983,
+        "name": "crime epic"
+      },
+      {
+        "id": 316832,
+        "name": "tense"
+      },
+      {
+        "id": 325766,
+        "name": "antagonistic"
+      },
+      {
+        "id": 325773,
+        "name": "audacious"
+      },
+      {
+        "id": 325778,
+        "name": "bold"
+      }
+    ],
+    "runtime": 170,
+    "vote_average": 7.92,
+    "vote_count": 7651,
+    "popularity": 13.0681,
+    "plot_synopsis": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
+  },
+  "O Kadhal Kanmani::2015": {
+    "genres": [
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 5903,
+        "name": "alzheimer's disease"
+      },
+      {
+        "id": 9673,
+        "name": "love"
+      },
+      {
+        "id": 10827,
+        "name": "open relationship"
+      },
+      {
+        "id": 164698,
+        "name": "boyfriend girlfriend relationship"
+      },
+      {
+        "id": 204207,
+        "name": "sexual relationship"
+      },
+      {
+        "id": 283392,
+        "name": "live in relationship"
+      }
+    ],
+    "runtime": 139,
+    "vote_average": 6.902,
+    "vote_count": 61,
+    "popularity": 0.8887,
+    "plot_synopsis": "Aadi and Tara fall in love but both hate the idea of marriage and plan to separate when their lives take them to different countries. However, as they grow closer, their emotions are not easily managed."
+  },
+  "Trap::2024": {
+    "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6029,
+        "name": "concert"
+      },
+      {
+        "id": 276,
+        "name": "philadelphia, pennsylvania"
+      },
+      {
+        "id": 848,
+        "name": "double life"
+      },
+      {
+        "id": 10685,
+        "name": "escape"
+      },
+      {
+        "id": 1470,
+        "name": "s.w.a.t."
+      },
+      {
+        "id": 3490,
+        "name": "pop star"
+      },
+      {
+        "id": 5905,
+        "name": "father"
+      },
+      {
+        "id": 5641,
+        "name": "limousine"
+      },
+      {
+        "id": 6562,
+        "name": "celebrity"
+      },
+      {
+        "id": 11060,
+        "name": "trap"
+      },
+      {
+        "id": 10714,
+        "name": "serial killer"
+      },
+      {
+        "id": 11036,
+        "name": "obsessive compulsive disorder (ocd)"
+      },
+      {
+        "id": 18029,
+        "name": "trapped"
+      },
+      {
+        "id": 41329,
+        "name": "mental illness"
+      },
+      {
+        "id": 167428,
+        "name": "sting operation"
+      },
+      {
+        "id": 178665,
+        "name": "mayhem"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 275311,
+        "name": "plot twist"
+      }
+    ],
+    "runtime": 105,
+    "vote_average": 6.301,
+    "vote_count": 2247,
+    "popularity": 10.0407,
+    "plot_synopsis": "A father and teen daughter attend a pop concert, where they realize they're at the center of a dark and sinister event."
+  },
+  "Linda Linda Linda::2005": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10402,
+        "name": "Music"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 10873,
+        "name": "school"
+      },
+      {
+        "id": 18001,
+        "name": "rock band"
+      },
+      {
+        "id": 41172,
+        "name": "schoolgirl"
+      },
+      {
+        "id": 164060,
+        "name": "girl band"
+      },
+      {
+        "id": 214532,
+        "name": "school club"
+      },
+      {
+        "id": 235790,
+        "name": "japanese high school"
+      },
+      {
+        "id": 238675,
+        "name": "high school girl"
+      },
+      {
+        "id": 296608,
+        "name": "teenager"
+      },
+      {
+        "id": 325782,
+        "name": "cheerful"
+      },
+      {
+        "id": 325807,
+        "name": "enchant"
+      },
+      {
+        "id": 344584,
+        "name": "bukatsu"
+      }
+    ],
+    "runtime": 114,
+    "vote_average": 7.4,
+    "vote_count": 123,
+    "popularity": 2.165,
+    "plot_synopsis": "Only three days before their high school festival, guitarist Kei, drummer Kyoko, and bassist Nozomi are forced to recruit a new lead vocalist for their band. They choose Korean exchange student Son, though her comprehension of Japanese is a bit rough! It's a race against time as the group struggles to learn three songs for the festival's rock concert\u2014including a classic '80s song by the Japanese punk rock band The Blue Hearts called \"Linda Linda\"."
+  },
+  "Sinners::2025": {
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 520,
+        "name": "chicago, illinois"
+      },
+      {
+        "id": 592,
+        "name": "capitalism"
+      },
+      {
+        "id": 529,
+        "name": "ku klux klan"
+      },
+      {
+        "id": 4048,
+        "name": "musician"
+      },
+      {
+        "id": 4978,
+        "name": "immortality"
+      },
+      {
+        "id": 3133,
+        "name": "vampire"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 7412,
+        "name": "sin"
+      },
+      {
+        "id": 7464,
+        "name": "alcoholism"
+      },
+      {
+        "id": 9259,
+        "name": "vampire hunter (slayer)"
+      },
+      {
+        "id": 14765,
+        "name": "church"
+      },
+      {
+        "id": 15016,
+        "name": "twins"
+      },
+      {
+        "id": 155817,
+        "name": "estranged wife"
+      },
+      {
+        "id": 159103,
+        "name": "mourning"
+      },
+      {
+        "id": 163129,
+        "name": "dual role"
+      },
+      {
+        "id": 164829,
+        "name": "cousin relationship"
+      },
+      {
+        "id": 164881,
+        "name": "death of daughter"
+      },
+      {
+        "id": 175506,
+        "name": "blues music"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 190531,
+        "name": "speculative"
+      },
+      {
+        "id": 191313,
+        "name": "klansmen"
+      },
+      {
+        "id": 210608,
+        "name": "1990s"
+      },
+      {
+        "id": 214548,
+        "name": "1930s"
+      },
+      {
+        "id": 215659,
+        "name": "salvation"
+      },
+      {
+        "id": 219896,
+        "name": "assimilation"
+      },
+      {
+        "id": 227943,
+        "name": "chinese immigrant"
+      },
+      {
+        "id": 243959,
+        "name": "brother brother relationship"
+      },
+      {
+        "id": 245264,
+        "name": "southern gothic"
+      },
+      {
+        "id": 246484,
+        "name": "afro-descendants"
+      },
+      {
+        "id": 254244,
+        "name": "cousins"
+      },
+      {
+        "id": 256183,
+        "name": "supernatural horror"
+      },
+      {
+        "id": 260005,
+        "name": "train station"
+      },
+      {
+        "id": 266753,
+        "name": "cautionary"
+      },
+      {
+        "id": 267925,
+        "name": "juke joint"
+      },
+      {
+        "id": 309603,
+        "name": "mississippi"
+      },
+      {
+        "id": 325772,
+        "name": "assertive"
+      },
+      {
+        "id": 325775,
+        "name": "awestruck"
+      },
+      {
+        "id": 325778,
+        "name": "bold"
+      },
+      {
+        "id": 325781,
+        "name": "celebratory"
+      },
+      {
+        "id": 325787,
+        "name": "complicated"
+      },
+      {
+        "id": 325791,
+        "name": "defiant"
+      },
+      {
+        "id": 325824,
+        "name": "hopeful"
+      }
+    ],
+    "runtime": 138,
+    "vote_average": 7.555,
+    "vote_count": 1542,
+    "popularity": 208.684,
+    "plot_synopsis": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back."
+  },
+  "12 Angry Men::1957": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2122,
+        "name": "death penalty"
+      },
+      {
+        "id": 2142,
+        "name": "anonymity"
+      },
+      {
+        "id": 3012,
+        "name": "court case"
+      },
+      {
+        "id": 6148,
+        "name": "court"
+      },
+      {
+        "id": 934,
+        "name": "judge"
+      },
+      {
+        "id": 1417,
+        "name": "jurors"
+      },
+      {
+        "id": 2123,
+        "name": "father murder"
+      },
+      {
+        "id": 6069,
+        "name": "class"
+      },
+      {
+        "id": 3772,
+        "name": "heat"
+      },
+      {
+        "id": 6139,
+        "name": "innocence"
+      },
+      {
+        "id": 2124,
+        "name": "puerto rico"
+      },
+      {
+        "id": 10181,
+        "name": "based on play or musical"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 33519,
+        "name": "courtroom"
+      },
+      {
+        "id": 210434,
+        "name": "thoughtful"
+      },
+      {
+        "id": 214780,
+        "name": "courtroom drama"
+      },
+      {
+        "id": 284102,
+        "name": "dialog driven"
+      },
+      {
+        "id": 349163,
+        "name": "persidangan"
+      },
+      {
+        "id": 349164,
+        "name": "sidang"
+      }
+    ],
+    "runtime": 97,
+    "vote_average": 8.548,
+    "vote_count": 9190,
+    "popularity": 18.1473,
+    "plot_synopsis": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other."
+  },
+  "Popstar: Never Stop Never Stopping::2016": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10402,
+        "name": "Music"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6029,
+        "name": "concert"
+      },
+      {
+        "id": 4048,
+        "name": "musician"
+      },
+      {
+        "id": 3490,
+        "name": "pop star"
+      },
+      {
+        "id": 6562,
+        "name": "celebrity"
+      },
+      {
+        "id": 11800,
+        "name": "mockumentary"
+      },
+      {
+        "id": 156170,
+        "name": "record album"
+      },
+      {
+        "id": 325782,
+        "name": "cheerful"
+      }
+    ],
+    "runtime": 86,
+    "vote_average": 6.615,
+    "vote_count": 1275,
+    "popularity": 2.3032,
+    "plot_synopsis": "When his new album fails to sell records, pop/rap superstar Conner4real goes into a major tailspin and watches his celebrity high life begin to collapse. He'll try anything to bounce back, anything except reuniting with his old rap group The Style Boyz."
+  },
+  "Better Man::2024": {
+    "genres": [
+      {
+        "id": 10402,
+        "name": "Music"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 894,
+        "name": "depression"
+      },
+      {
+        "id": 1803,
+        "name": "drug addiction"
+      },
+      {
+        "id": 4344,
+        "name": "musical"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 11736,
+        "name": "family abandonment"
+      },
+      {
+        "id": 14964,
+        "name": "drugs"
+      },
+      {
+        "id": 15149,
+        "name": "monkey"
+      },
+      {
+        "id": 18068,
+        "name": "teenage boy"
+      },
+      {
+        "id": 33922,
+        "name": "pop music"
+      },
+      {
+        "id": 156306,
+        "name": "price of fame"
+      },
+      {
+        "id": 186799,
+        "name": "girl group"
+      },
+      {
+        "id": 194869,
+        "name": "boy band"
+      },
+      {
+        "id": 208289,
+        "name": "1980s"
+      },
+      {
+        "id": 210608,
+        "name": "1990s"
+      },
+      {
+        "id": 232763,
+        "name": "arrested development"
+      },
+      {
+        "id": 233130,
+        "name": "self-harm"
+      },
+      {
+        "id": 240119,
+        "name": "father son relationship"
+      },
+      {
+        "id": 240237,
+        "name": "mother son relationship"
+      },
+      {
+        "id": 252104,
+        "name": "2000s"
+      },
+      {
+        "id": 267659,
+        "name": "grandmother grandson relationship"
+      },
+      {
+        "id": 328926,
+        "name": "based on real person"
+      },
+      {
+        "id": 339459,
+        "name": "based on real events"
+      }
+    ],
+    "runtime": 135,
+    "vote_average": 7.789,
+    "vote_count": 552,
+    "popularity": 8.1513,
+    "plot_synopsis": "Follow Robbie Williams' journey from childhood, to being the youngest member of chart-topping boyband Take That, through to his unparalleled achievements as a record-breaking solo artist \u2013 all the while confronting the challenges that stratospheric fame and success can bring."
+  },
+  "Clue::1985": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1936,
+        "name": "blackmail"
+      },
+      {
+        "id": 1307,
+        "name": "butler"
+      },
+      {
+        "id": 10090,
+        "name": "board game"
+      },
+      {
+        "id": 12545,
+        "name": "mansion"
+      },
+      {
+        "id": 12570,
+        "name": "whodunit"
+      },
+      {
+        "id": 13097,
+        "name": "maid"
+      },
+      {
+        "id": 155733,
+        "name": "old house"
+      },
+      {
+        "id": 163651,
+        "name": "one by one"
+      },
+      {
+        "id": 171964,
+        "name": "secret passageway"
+      },
+      {
+        "id": 207046,
+        "name": "murder mystery"
+      },
+      {
+        "id": 222806,
+        "name": "murder weapon"
+      },
+      {
+        "id": 259015,
+        "name": "dinner guest"
+      },
+      {
+        "id": 295106,
+        "name": "multiple endings"
+      },
+      {
+        "id": 319397,
+        "name": "witty"
+      },
+      {
+        "id": 344283,
+        "name": "based on board game"
+      }
+    ],
+    "runtime": 94,
+    "vote_average": 7.224,
+    "vote_count": 1787,
+    "popularity": 4.2706,
+    "plot_synopsis": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises."
+  },
+  "Ponniyin Selvan: Part I::2022": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 5515,
+        "name": "heir to the throne"
+      },
+      {
+        "id": 12995,
+        "name": "historical fiction"
+      },
+      {
+        "id": 189092,
+        "name": "journey"
+      },
+      {
+        "id": 209365,
+        "name": "history of india"
+      },
+      {
+        "id": 235499,
+        "name": "10th century"
+      },
+      {
+        "id": 239118,
+        "name": "indian empire"
+      }
+    ],
+    "runtime": 167,
+    "vote_average": 7.137,
+    "vote_count": 84,
+    "popularity": 2.0436,
+    "plot_synopsis": "The Chola kingdom is under threat from forces both internal and external, and with crown prince Aaditha Karikalan, his younger brother Arunmozhi Varman and the emperor, Sundara Cholar separated by situations, it is up to a messenger to ensure the safety of the kingdom. Can he succeed in his mission, especially with Karikalan's former girlfriend, Nandhini, plotting to bring down the entire Chola empire?"
+  },
+  "GoodFellas::1990": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 378,
+        "name": "prison"
+      },
+      {
+        "id": 1196,
+        "name": "florida"
+      },
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 3149,
+        "name": "gangster"
+      },
+      {
+        "id": 1583,
+        "name": "mass murder"
+      },
+      {
+        "id": 2149,
+        "name": "drug trafficking"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 1857,
+        "name": "irish-american"
+      },
+      {
+        "id": 10292,
+        "name": "gore"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10291,
+        "name": "organized crime"
+      },
+      {
+        "id": 10391,
+        "name": "mafia"
+      },
+      {
+        "id": 41523,
+        "name": "brooklyn, new york city"
+      },
+      {
+        "id": 214983,
+        "name": "crime epic"
+      },
+      {
+        "id": 214985,
+        "name": "tampa, florida"
+      }
+    ],
+    "runtime": 145,
+    "vote_average": 8.455,
+    "vote_count": 13431,
+    "popularity": 14.3066,
+    "plot_synopsis": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
+  },
+  "No Country for Old Men::2007": {
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 422,
+        "name": "vietnam veteran"
+      },
+      {
+        "id": 798,
+        "name": "sheriff"
+      },
+      {
+        "id": 900,
+        "name": "trailer park"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 6259,
+        "name": "psychopath"
+      },
+      {
+        "id": 2149,
+        "name": "drug trafficking"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 2669,
+        "name": "motel"
+      },
+      {
+        "id": 5616,
+        "name": "usa\u2013mexico border"
+      },
+      {
+        "id": 10175,
+        "name": "drug cartel"
+      },
+      {
+        "id": 10855,
+        "name": "fate"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 160798,
+        "name": "modern-day western"
+      },
+      {
+        "id": 168713,
+        "name": "neo-western"
+      },
+      {
+        "id": 181620,
+        "name": "tracking device"
+      },
+      {
+        "id": 193021,
+        "name": "cold blooded killer"
+      },
+      {
+        "id": 200574,
+        "name": "motel room"
+      },
+      {
+        "id": 202760,
+        "name": "hopeless"
+      },
+      {
+        "id": 206594,
+        "name": "cartel"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 208289,
+        "name": "1980s"
+      },
+      {
+        "id": 212737,
+        "name": "philosophical"
+      },
+      {
+        "id": 217064,
+        "name": "mexican cartel"
+      },
+      {
+        "id": 239797,
+        "name": "complex"
+      },
+      {
+        "id": 252472,
+        "name": "drug deal"
+      },
+      {
+        "id": 255356,
+        "name": "coin toss"
+      },
+      {
+        "id": 257412,
+        "name": "human nature"
+      },
+      {
+        "id": 259279,
+        "name": "captive bolt gun"
+      },
+      {
+        "id": 265556,
+        "name": "western noir"
+      },
+      {
+        "id": 279115,
+        "name": "horror western"
+      },
+      {
+        "id": 305164,
+        "name": "faithful adaptation"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 321464,
+        "name": "intense"
+      },
+      {
+        "id": 325801,
+        "name": "distressing"
+      },
+      {
+        "id": 325817,
+        "name": "foreboding"
+      },
+      {
+        "id": 325823,
+        "name": "harsh"
+      },
+      {
+        "id": 325842,
+        "name": "powerful"
+      }
+    ],
+    "runtime": 122,
+    "vote_average": 7.947,
+    "vote_count": 12419,
+    "popularity": 10.5396,
+    "plot_synopsis": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide."
+  },
+  "Raiders of the Lost Ark::1981": {
+    "genres": [
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1160,
+        "name": "egypt"
+      },
+      {
+        "id": 1454,
+        "name": "treasure"
+      },
+      {
+        "id": 1456,
+        "name": "medallion"
+      },
+      {
+        "id": 11105,
+        "name": "swastika"
+      },
+      {
+        "id": 83,
+        "name": "saving the world"
+      },
+      {
+        "id": 485,
+        "name": "nepal"
+      },
+      {
+        "id": 486,
+        "name": "himalaya mountain range"
+      },
+      {
+        "id": 487,
+        "name": "cairo"
+      },
+      {
+        "id": 488,
+        "name": "moses"
+      },
+      {
+        "id": 2656,
+        "name": "hat"
+      },
+      {
+        "id": 1294,
+        "name": "whip"
+      },
+      {
+        "id": 2650,
+        "name": "leather jacket"
+      },
+      {
+        "id": 2853,
+        "name": "mediterranean"
+      },
+      {
+        "id": 2854,
+        "name": "ark of the covenant"
+      },
+      {
+        "id": 2856,
+        "name": "ten commandments"
+      },
+      {
+        "id": 2652,
+        "name": "nazi"
+      },
+      {
+        "id": 9032,
+        "name": "excavation"
+      },
+      {
+        "id": 483,
+        "name": "riddle"
+      },
+      {
+        "id": 6956,
+        "name": "treasure hunt"
+      },
+      {
+        "id": 41586,
+        "name": "archaeologist"
+      },
+      {
+        "id": 175428,
+        "name": "adventurer"
+      },
+      {
+        "id": 184134,
+        "name": "archeology"
+      },
+      {
+        "id": 205333,
+        "name": "religious history"
+      },
+      {
+        "id": 214548,
+        "name": "1930s"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      }
+    ],
+    "runtime": 115,
+    "vote_average": 7.924,
+    "vote_count": 12900,
+    "popularity": 10.7015,
+    "plot_synopsis": "When Dr. Indiana Jones \u2013 the tweed-suited professor who just happens to be a celebrated archaeologist \u2013 is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime."
+  },
+  "Apocalypse Now::1979": {
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10752,
+        "name": "War"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1008,
+        "name": "guerrilla warfare"
+      },
+      {
+        "id": 6917,
+        "name": "epic"
+      },
+      {
+        "id": 2957,
+        "name": "vietnam war"
+      },
+      {
+        "id": 736,
+        "name": "journalist"
+      },
+      {
+        "id": 10364,
+        "name": "mission"
+      },
+      {
+        "id": 2956,
+        "name": "vietnam"
+      },
+      {
+        "id": 2959,
+        "name": "vietcong"
+      },
+      {
+        "id": 591,
+        "name": "central intelligence agency (cia)"
+      },
+      {
+        "id": 2960,
+        "name": "cambodia"
+      },
+      {
+        "id": 6092,
+        "name": "army"
+      },
+      {
+        "id": 726,
+        "name": "drug abuse"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 3269,
+        "name": "secret mission"
+      },
+      {
+        "id": 6255,
+        "name": "insanity"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 10148,
+        "name": "tribe"
+      },
+      {
+        "id": 10403,
+        "name": "green beret"
+      },
+      {
+        "id": 10787,
+        "name": "jungle"
+      },
+      {
+        "id": 11323,
+        "name": "descent into madness"
+      },
+      {
+        "id": 14707,
+        "name": "brutality"
+      },
+      {
+        "id": 158244,
+        "name": "riverboat"
+      },
+      {
+        "id": 162365,
+        "name": "military"
+      },
+      {
+        "id": 162810,
+        "name": "macabre"
+      },
+      {
+        "id": 165431,
+        "name": "anti war"
+      },
+      {
+        "id": 309974,
+        "name": "absurd"
+      },
+      {
+        "id": 325775,
+        "name": "awestruck"
+      },
+      {
+        "id": 325785,
+        "name": "commanding"
+      },
+      {
+        "id": 325801,
+        "name": "distressing"
+      }
+    ],
+    "runtime": 147,
+    "vote_average": 8.272,
+    "vote_count": 8527,
+    "popularity": 9.2879,
+    "plot_synopsis": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory."
+  },
+  "Godzilla::2014": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 1299,
+        "name": "monster"
+      },
+      {
+        "id": 582,
+        "name": "san francisco, california"
+      },
+      {
+        "id": 1668,
+        "name": "hawaii"
+      },
+      {
+        "id": 11100,
+        "name": "giant monster"
+      },
+      {
+        "id": 6941,
+        "name": "tsunami"
+      },
+      {
+        "id": 9714,
+        "name": "remake"
+      },
+      {
+        "id": 10789,
+        "name": "prehistoric creature"
+      },
+      {
+        "id": 12393,
+        "name": "golden gate bridge"
+      },
+      {
+        "id": 12616,
+        "name": "dinosaur"
+      },
+      {
+        "id": 161791,
+        "name": "kaiju"
+      },
+      {
+        "id": 189149,
+        "name": "honolulu, hawaii"
+      },
+      {
+        "id": 189411,
+        "name": "disaster movie"
+      },
+      {
+        "id": 206959,
+        "name": "global threat"
+      },
+      {
+        "id": 223059,
+        "name": "animal horror"
+      },
+      {
+        "id": 257384,
+        "name": "godzilla"
+      }
+    ],
+    "runtime": 123,
+    "vote_average": 6.346,
+    "vote_count": 9332,
+    "popularity": 7.6827,
+    "plot_synopsis": "Ford Brody, a Navy bomb expert, has just reunited with his family in San Francisco when he is forced to go to Japan to help his estranged father, Joe. Soon, both men are swept up in an escalating crisis when an ancient alpha predator arises from the sea to combat malevolent adversaries that threaten the survival of humanity. The creatures leave colossal destruction in their wake, as they make their way toward their final battleground: San Francisco."
+  },
+  "Decision to Leave::2022": {
+    "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 658,
+        "name": "sea"
+      },
+      {
+        "id": 7879,
+        "name": "secret love"
+      },
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 4129,
+        "name": "widow"
+      },
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 1262,
+        "name": "mountain"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 2568,
+        "name": "language barrier"
+      },
+      {
+        "id": 3691,
+        "name": "forbidden love"
+      },
+      {
+        "id": 9294,
+        "name": "foreign language"
+      },
+      {
+        "id": 9673,
+        "name": "love"
+      },
+      {
+        "id": 154901,
+        "name": "audio recording"
+      },
+      {
+        "id": 157344,
+        "name": "phone"
+      },
+      {
+        "id": 159212,
+        "name": "mountain climbing"
+      },
+      {
+        "id": 207046,
+        "name": "murder mystery"
+      },
+      {
+        "id": 207431,
+        "name": "murder suspect"
+      },
+      {
+        "id": 232649,
+        "name": "busan, south korea"
+      },
+      {
+        "id": 261681,
+        "name": "south korea"
+      },
+      {
+        "id": 268067,
+        "name": "police procedural"
+      }
+    ],
+    "runtime": 138,
+    "vote_average": 7.3,
+    "vote_count": 1293,
+    "popularity": 6.1898,
+    "plot_synopsis": "From a mountain peak in South Korea, a man plummets to his death. Did he jump, or was he pushed? When detective Hae-joon arrives on the scene, he begins to suspect the dead man\u2019s wife Seo-rae. But as he digs deeper into the investigation, he finds himself trapped in a web of deception and desire."
+  },
+  "Super Deluxe::2019": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 228696,
+        "name": "hyperlink cinema"
+      }
+    ],
+    "runtime": 176,
+    "vote_average": 7.7,
+    "vote_count": 116,
+    "popularity": 1.0818,
+    "plot_synopsis": "An unfaithful newly-wed wife, an estranged parent, a priest and an angry son suddenly find themselves in the most unexpected predicaments, each poised to experience their destiny, all on one fateful day."
+  },
+  "Lost Ladies::2023": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3582,
+        "name": "bride"
+      },
+      {
+        "id": 283488,
+        "name": "rural india"
+      },
+      {
+        "id": 322942,
+        "name": "adventure"
+      }
+    ],
+    "runtime": 123,
+    "vote_average": 7.76,
+    "vote_count": 102,
+    "popularity": 2.6104,
+    "plot_synopsis": "In 2001, somewhere in rural India, two young brides get accidentally swapped on a train. In the ensuing chaos, they both encounter a host of colourful characters, resulting in hilarious and unexpected consequences."
+  },
+  "The Return of Godzilla::1984": {
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5301,
+        "name": "brother"
+      },
+      {
+        "id": 2106,
+        "name": "cold war"
+      },
+      {
+        "id": 2111,
+        "name": "soviet union"
+      },
+      {
+        "id": 11100,
+        "name": "giant monster"
+      },
+      {
+        "id": 9665,
+        "name": "cover-up"
+      },
+      {
+        "id": 12193,
+        "name": "reporter"
+      },
+      {
+        "id": 33922,
+        "name": "pop music"
+      },
+      {
+        "id": 157634,
+        "name": "parasite"
+      },
+      {
+        "id": 158126,
+        "name": "creature feature"
+      },
+      {
+        "id": 161184,
+        "name": "reboot"
+      },
+      {
+        "id": 161791,
+        "name": "kaiju"
+      },
+      {
+        "id": 165259,
+        "name": "political unrest"
+      },
+      {
+        "id": 177938,
+        "name": "lice"
+      },
+      {
+        "id": 257384,
+        "name": "godzilla"
+      },
+      {
+        "id": 317204,
+        "name": "tokusatsu"
+      }
+    ],
+    "runtime": 103,
+    "vote_average": 7.2,
+    "vote_count": 310,
+    "popularity": 2.3494,
+    "plot_synopsis": "After a fishing boat is attacked, the sole surviving crew member realizes it is none other than a resurrected Godzilla. However, efforts to bring the story to light are suppressed by the Japanese government amid growing political tensions between the United States and the Soviet Union, who are both willing to bomb Japan to stop the monster."
+  },
+  "Top Gun: Maverick::2022": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2533,
+        "name": "fighter pilot"
+      },
+      {
+        "id": 4410,
+        "name": "u.s. navy"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 160381,
+        "name": "nuclear weapons"
+      },
+      {
+        "id": 162365,
+        "name": "military"
+      },
+      {
+        "id": 221092,
+        "name": "aircraft carrier"
+      },
+      {
+        "id": 239588,
+        "name": "naval aviation"
+      },
+      {
+        "id": 273967,
+        "name": "war"
+      },
+      {
+        "id": 325761,
+        "name": "admiring"
+      },
+      {
+        "id": 325773,
+        "name": "audacious"
+      },
+      {
+        "id": 325804,
+        "name": "earnest"
+      }
+    ],
+    "runtime": 131,
+    "vote_average": 8.175,
+    "vote_count": 9923,
+    "popularity": 26.5631,
+    "plot_synopsis": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen."
+  },
+  "Glass Onion::2022": {
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 1200,
+        "name": "greece"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 2978,
+        "name": "mona lisa (la gioconda)"
+      },
+      {
+        "id": 8201,
+        "name": "satire"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 12547,
+        "name": "billionaire"
+      },
+      {
+        "id": 12570,
+        "name": "whodunit"
+      },
+      {
+        "id": 17996,
+        "name": "puzzle box"
+      },
+      {
+        "id": 33514,
+        "name": "clue"
+      },
+      {
+        "id": 204353,
+        "name": "identical twin"
+      },
+      {
+        "id": 207046,
+        "name": "murder mystery"
+      },
+      {
+        "id": 232763,
+        "name": "arrested development"
+      },
+      {
+        "id": 263237,
+        "name": "covid-19"
+      },
+      {
+        "id": 325762,
+        "name": "adoring"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325769,
+        "name": "appreciative"
+      },
+      {
+        "id": 325770,
+        "name": "approving"
+      }
+    ],
+    "runtime": 140,
+    "vote_average": 7.05,
+    "vote_count": 5937,
+    "popularity": 6.2999,
+    "plot_synopsis": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends."
+  },
+  "Ponniyin Selvan: Part II::2023": {
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 5515,
+        "name": "heir to the throne"
+      },
+      {
+        "id": 12995,
+        "name": "historical fiction"
+      },
+      {
+        "id": 235499,
+        "name": "10th century"
+      }
+    ],
+    "runtime": 164,
+    "vote_average": 6.4,
+    "vote_count": 52,
+    "popularity": 1.734,
+    "plot_synopsis": "968 AD. The Pandyan assassins gather once again to destroy the Chola dynasty. Now the mighty Chola princes must fight the Pandyas, the Rashtrakutas and other Chola enemies who have joined forces. Also, at play are the rumours of Ponniyin Selvan\u2019s death at sea, the powerful Pazhuvettarayar\u2019s betrayal, and the tragic destiny of Aditha Karikalan, whose heart was long lost to the vengeful Nandini."
+  }
+}

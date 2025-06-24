@@ -1,69 +1,76 @@
-# Byte-compiled / optimized / DLL files
+# Python virtual environments
+venv/
+.venv/
+venv311/
+env/
+ENV/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
+# Build, dist, eggs
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+.eggs/
 
-# Python Virtual Environment
-venv/
-.venv/
-env/
-.env/
-ENV/
-Scripts/
-Include/
+# Node modules and build
+project-lumiere/node_modules/
+project-lumiere/package-lock.json
 
-# Environment variables
-.env
-
-# Database files
-*.db
-*.sqlite3
-project_lumiere.db
-
-# Data files and archives
-*.csv
-*.zip
-movie_data.csv
-letterboxd-meccatti-2025-06-19-04-23-utc.zip
-
-# Log files
-*.log
-logs/
-
-# IDE / Editor specific files
+# OS and editor files
+.DS_Store
+Thumbs.db
 .idea/
 .vscode/
 *.swp
 *.swo
 *~
 
+# Environment and secrets
+.env
+.env.*
+*.env
+users.json
+
+# Database and data
+*.db
+*.sqlite3
+project_lumiere.db
+*.csv
+*.zip
+*.log
+logs/
+
 # Docker
 .dockerignore
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Misc
+project-lumiere/public/*.map
+
+# Ignore backend cache and trash
+backend/tmdb_cache/
+backend/trash/
+
+# Ignore test and temp files
+*.tmp
+*.bak
+
+# Ignore pyc and pyo files
+*.pyc
+*.pyo
+
+# Ignore coverage and test output
+.coverage
+htmlcov/
+coverage.xml
+
+# Ignore system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

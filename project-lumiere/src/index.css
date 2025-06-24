@@ -1,0 +1,109 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Special+Elite&family=Monoton&family=VT323&display=swap');
+
+@font-face {
+  font-family: 'Broadway';
+  src: url('./assets/fonts/Broadway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Britannic Bold';
+  src: url('./assets/fonts/Britannic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom background utilities defined in tailwind.config.js aren't working as expected with Vite, so we define them here directly. */
+.bg-grid-red {
+  background-color: #D4AF37;
+  background-image:
+    linear-gradient(to right, rgba(156, 163, 175, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(156, 163, 175, 0.1) 1px, transparent 1px);
+  background-size: 2rem 2rem;
+}
+
+.bg-grid-import {
+    background-color: #D4AF37;
+    background-image:
+        linear-gradient(rgba(255, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(to right, rgba(255, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.bg-grid-green {
+    background-color: #0a1e0a;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), radial-gradient(#22c55e 0.5px, transparent 0.5px);
+    background-size: 12px 12px;
+}
+
+.bg-grid-blue {
+    background-color: #dbeafe;
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px), 
+      linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 4rem 4rem;
+}
+
+.bg-noisy-net {
+    background-color: #4d382a;
+    background-image: url('https://www.transparenttextures.com/patterns/noisy-net.png');
+}
+
+.bg-subtle-zebra {
+    background-color: #4a2c40;
+    background-image: url('https://www.transparenttextures.com/patterns/subtle-zebra-3d.png');
+}
+
+/* Custom background classes for the recommendations page */
+.bg-lumiere-rec-bg {
+    background-color: #fdf2f8;
+}
+
+.bg-lumiere-detail-bg {
+    background-color: #1f2937;
+}
+
+/* Additional custom background classes */
+.bg-lumiere-yellow {
+    background-color: #f5b942;
+}
+
+.bg-lumiere-blue {
+    background-color: #dbeafe;
+}
+
+.bg-lumiere-terminal-bg {
+    background-color: #0a1e0a;
+}
+
+.bg-lumiere-console-bg {
+    background-color: #4d382a;
+}
+
+.bg-grid-loading {
+    background-color: #0A0A0A;
+    background-image:
+        linear-gradient(rgba(0, 224, 209, 0.1) 1px, transparent 1px),
+        linear-gradient(to right, rgba(0, 224, 209, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
