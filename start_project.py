@@ -108,7 +108,7 @@ class ProjectLumiere:
             os.chdir(self.backend_dir)
             self.backend_process = subprocess.Popen([
                 sys.executable, "-m", "uvicorn", 
-                "main:app", 
+                "app:app", 
                 "--host", "0.0.0.0", 
                 "--port", "8000", 
                 "--reload",

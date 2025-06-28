@@ -8,6 +8,7 @@ import math
 from typing import List, Dict, Set, Optional, Tuple
 import pandas as pd
 import csv
+from difflib import SequenceMatcher
 
 class TagBasedRecommender:
     """
@@ -103,40 +104,54 @@ class TagBasedRecommender:
         return self.keywords_db.get(keyword_name.lower())
     
     def _convert_calibration_to_filters(self, calibration_settings: Dict) -> Dict:
-        """Convert calibration settings to TMDB API filters"""
+        """Convert calibration settings to TMDB API filters, respecting *_Enabled flags"""
+        print(f"🔧 Converting calibration settings: {calibration_settings}")
         filters = {}
         
-        # Era filter (1-10 scale to year ranges)
-        era = calibration_settings.get('era', 5)
-        if era <= 3:
-            filters['primary_release_date.gte'] = '1920-01-01'
-            filters['primary_release_date.lte'] = '1980-12-31'
-        elif era <= 7:
-            filters['primary_release_date.gte'] = '1980-01-01'
-            filters['primary_release_date.lte'] = '2010-12-31'
-        else:
-            filters['primary_release_date.gte'] = '2010-01-01'
-            filters['primary_release_date.lte'] = '2030-12-31'
+        # Era filter
+        era_enabled = calibration_settings.get('eraEnabled', True)
+        print(f"🎬 Era filter enabled: {era_enabled}")
+        if era_enabled:
+            era = calibration_settings.get('era', 5)
+            if era <= 3:
+                filters['primary_release_date.gte'] = '1920-01-01'
+                filters['primary_release_date.lte'] = '1980-12-31'
+            elif era <= 7:
+                filters['primary_release_date.gte'] = '1980-01-01'
+                filters['primary_release_date.lte'] = '2010-12-31'
+            else:
+                filters['primary_release_date.gte'] = '2010-01-01'
+                filters['primary_release_date.lte'] = '2030-12-31'
+            print(f"📅 Era filter applied: {filters.get('primary_release_date.gte')} to {filters.get('primary_release_date.lte')}")
         
-        # Runtime filter (1-10 scale to minutes)
-        runtime = calibration_settings.get('runtime', 5)
-        if runtime <= 3:
-            filters['with_runtime.lte'] = 90
-        elif runtime <= 7:
-            filters['with_runtime.gte'] = 90
-            filters['with_runtime.lte'] = 150
-        else:
-            filters['with_runtime.gte'] = 150
+        # Runtime filter
+        runtime_enabled = calibration_settings.get('runtimeEnabled', True)
+        print(f"⏱️ Runtime filter enabled: {runtime_enabled}")
+        if runtime_enabled:
+            runtime = calibration_settings.get('runtime', 5)
+            if runtime <= 3:
+                filters['with_runtime.lte'] = 90
+            elif runtime <= 7:
+                filters['with_runtime.gte'] = 90
+                filters['with_runtime.lte'] = 150
+            else:
+                filters['with_runtime.gte'] = 150
+            print(f"⏰ Runtime filter applied: {filters.get('with_runtime.gte', 'no min')} to {filters.get('with_runtime.lte', 'no max')}")
         
-        # Popularity filter (1-10 scale to sort order)
-        popularity = calibration_settings.get('popularity', 5)
-        if popularity <= 3:
-            filters['sort_by'] = 'popularity.asc'  # Less popular first
-        elif popularity <= 7:
-            filters['sort_by'] = 'popularity.desc'  # Medium popularity
-        else:
-            filters['sort_by'] = 'vote_average.desc'  # Highly rated
+        # Popularity filter
+        popularity_enabled = calibration_settings.get('popularityEnabled', True)
+        print(f"⭐ Popularity filter enabled: {popularity_enabled}")
+        if popularity_enabled:
+            popularity = calibration_settings.get('popularity', 5)
+            if popularity <= 3:
+                filters['sort_by'] = 'popularity.asc'  # Less popular first
+            elif popularity <= 7:
+                filters['sort_by'] = 'popularity.desc'  # Medium popularity
+            else:
+                filters['sort_by'] = 'vote_average.desc'  # Highly rated
+            print(f"📊 Popularity filter applied: {filters.get('sort_by')}")
         
+        print(f"🎯 Final filters: {filters}")
         return filters
     
     def _get_movies_by_keyword(self, keyword_id: int, filters: Dict, max_pages: int = 3) -> List[Dict]:
@@ -307,7 +322,7 @@ class TagBasedRecommender:
         return min(score, max_score)
     
     def _build_user_profile(self, user_movies: List[Dict]) -> Dict:
-        """Build user profile from their movie history"""
+        """Build user profile from their movie history and enhanced preferences"""
         profile = {
             'known_actors': set(),
             'known_directors': set(),
@@ -317,6 +332,28 @@ class TagBasedRecommender:
             'total_movies': len(user_movies)
         }
         
+        # Load enhanced user preferences if available
+        try:
+            enhanced_data_path = os.path.join(os.path.dirname(__file__), "enhanced_movie_scores_detailed.json")
+            if os.path.exists(enhanced_data_path):
+                with open(enhanced_data_path, 'r', encoding='utf-8') as f:
+                    enhanced_data = json.load(f)
+                
+                user_preferences = enhanced_data.get('user_preferences', {})
+                
+                # Add preferred actors, directors, keywords, and genres from enhanced data
+                profile['known_actors'].update([actor.lower() for actor in user_preferences.get('preferred_actors', [])])
+                profile['known_directors'].update([director.lower() for director in user_preferences.get('preferred_directors', [])])
+                profile['known_keywords'].update([keyword.lower() for keyword in user_preferences.get('preferred_keywords', [])])
+                profile['preferred_genres'].update([genre.lower() for genre in user_preferences.get('preferred_genres', [])])
+                
+                print(f"🎭 Loaded enhanced preferences: {len(user_preferences.get('preferred_actors', []))} actors, "
+                      f"{len(user_preferences.get('preferred_directors', []))} directors, "
+                      f"{len(user_preferences.get('preferred_keywords', []))} keywords")
+        except Exception as e:
+            print(f"⚠️ Error loading enhanced preferences: {e}")
+        
+        # Also extract from user_movies if provided
         for movie in user_movies:
             # Extract features from user's movies
             if 'cast' in movie:
@@ -394,22 +431,65 @@ class TagBasedRecommender:
         
         print(f"📋 Superlist contains {len(all_movies)} unique movies")
         
-        # Step 2: Get similar movies for user's top 40 movies
+        # --- FILTER OUT WATCHED MOVIES WITH FUZZY MATCHING ---
+        try:
+            watched_path = os.path.join(os.path.dirname(__file__), "letterboxd_merged_data.csv")
+            if os.path.exists(watched_path):
+                watched_df = pd.read_csv(watched_path)
+                before_count = len(all_movies)
+                
+                # Create a list of watched movies for fuzzy matching
+                watched_movies = []
+                for _, row in watched_df.iterrows():
+                    watched_title = str(row['name']).strip()
+                    watched_year = str(row['year']).strip()
+                    watched_movies.append((watched_title, watched_year))
+                
+                # Filter out watched movies using fuzzy matching
+                filtered_movies = {}
+                for movie_id, movie in all_movies.items():
+                    movie_title = str(movie.get('title', '')).strip()
+                    movie_year = str(movie.get('release_date', '')[:4] if movie.get('release_date') else movie.get('year', '')).strip()
+                    
+                    # Check if this movie matches any watched movie
+                    is_watched = False
+                    for watched_title, watched_year in watched_movies:
+                        # Check year first (exact match)
+                        if movie_year and watched_year and movie_year == watched_year:
+                            # Then check title with fuzzy matching
+                            if fuzzy_match_title(movie_title, watched_title):
+                                is_watched = True
+                                break
+                    
+                    if not is_watched:
+                        filtered_movies[movie_id] = movie
+                
+                all_movies = filtered_movies
+                print(f"🛑 Filtered out watched movies: {before_count - len(all_movies)} removed, {len(all_movies)} remain")
+            else:
+                print("⚠️ letterboxd_merged_data.csv not found, skipping watched filter")
+        except Exception as e:
+            print(f"⚠️ Error filtering watched movies: {e}")
+        
+        # Step 2: Get similar movies for user's top 40 movies (ONLY if they're already in the superlist)
         if user_movies:
             top_movies = user_movies[:40]  # Top 40 movies
-            print(f"🎯 Getting similar movies for top {len(top_movies)} user movies")
+            print(f"🎯 Getting similar movies for top {len(top_movies)} user movies (only if in superlist)")
             
+            similar_movies_found = 0
             for movie in top_movies:
                 if 'tmdb_id' in movie and movie['tmdb_id']:
                     similar_movies = self._get_similar_movies(movie['tmdb_id'])
                     
                     for similar_movie in similar_movies:
                         movie_id = similar_movie['id']
-                        if movie_id not in all_movies:
-                            all_movies[movie_id] = similar_movie
-                            all_movies[movie_id]['source_tags'] = ['similar_to_user_favorite']
-                        else:
-                            all_movies[movie_id]['source_tags'].append('similar_to_user_favorite')
+                        # Only add if this movie is already in the superlist
+                        if movie_id in all_movies:
+                            if 'similar_to_user_favorite' not in all_movies[movie_id]['source_tags']:
+                                all_movies[movie_id]['source_tags'].append('similar_to_user_favorite')
+                                similar_movies_found += 1
+            
+            print(f"🎯 Found {similar_movies_found} similar movies that were already in the superlist")
         
         # Step 3: Rate movies based on familiarity
         print("🎭 Calculating familiarity scores...")
@@ -484,7 +564,8 @@ class TagBasedRecommender:
                     'vote_count': movie_details.get('vote_count', 0),
                     'runtime': movie_details.get('runtime', 0),
                     'genres': [g['name'] for g in movie_details.get('genres', [])],
-                    'tmdb_id': movie_id
+                    'tmdb_id': movie_id,
+                    'credits': movie_details.get('credits')  # Add credits field
                 })
                 
                 ranked_movies.append(movie)
@@ -533,6 +614,36 @@ class TagBasedRecommender:
         
         return keywords_db
 
+def fuzzy_match_title(title1: str, title2: str, threshold: float = 0.8) -> bool:
+    """Check if two movie titles match using fuzzy string matching"""
+    if not title1 or not title2:
+        return False
+    
+    # Normalize titles
+    t1 = title1.strip().lower()
+    t2 = title2.strip().lower()
+    
+    # Exact match
+    if t1 == t2:
+        return True
+    
+    # Check if one title contains the other (for partial matches)
+    # Split into words and check if most words match
+    words1 = set(t1.split())
+    words2 = set(t2.split())
+    
+    # If one title is a subset of the other (with at least 2 words)
+    if len(words1) >= 2 and len(words2) >= 2:
+        if words1.issubset(words2) or words2.issubset(words1):
+            return True
+    
+    # Check if one title contains the other as a substring
+    if t1 in t2 or t2 in t1:
+        return True
+    
+    # Use sequence matcher for fuzzy matching
+    similarity = SequenceMatcher(None, t1, t2).ratio()
+    return similarity >= threshold
 
 # Example usage
 if __name__ == "__main__":

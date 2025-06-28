@@ -56,6 +56,21 @@ def test_simple_recommendations():
     for key, value in filters.items():
         print(f"   {key}: {value}")
     
+    # Test with disabled filters
+    print(f"\n🚫 Testing disabled filters:")
+    disabled_settings = {
+        'era': 7,
+        'runtime': 6,
+        'popularity': 5,
+        'familiarity': 4,
+        'eraEnabled': False,
+        'runtimeEnabled': False,
+        'popularityEnabled': False,
+        'familiarityEnabled': False
+    }
+    disabled_filters = recommender._convert_calibration_to_filters(disabled_settings)
+    print(f"   Disabled filters result: {disabled_filters}")
+    
     # Test a simple API call
     print(f"\n🌐 Testing TMDB API connection:")
     try:

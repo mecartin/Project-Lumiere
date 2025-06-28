@@ -44,33 +44,6 @@ const AnimatedPage = ({ children }) => (
   </motion.div>
 );
 
-// API Connection Status Component
-const ApiStatus = () => {
-  const { isConnected, isLoading, error } = useApi();
-
-  if (isLoading) {
-    return (
-      <div className="fixed top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm">
-        Connecting to API...
-      </div>
-    );
-  }
-
-  if (!isConnected) {
-    return (
-      <div className="fixed top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm">
-        API Disconnected
-      </div>
-    );
-  }
-
-  return (
-    <div className="fixed top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm">
-      API Connected
-    </div>
-  );
-};
-
 // Main App Component
 const AppContent = () => {
   const { isConnected, isLoading } = useApi();
@@ -101,7 +74,6 @@ const AppContent = () => {
 
   return (
     <main>
-      <ApiStatus />
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Navigate to="/auth" replace />} />

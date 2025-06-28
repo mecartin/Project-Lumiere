@@ -90,7 +90,7 @@ const SearchResult = ({ result, onClick, isSelected }) => (
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
     >
-        <div className="font-work-sans text-sm">{result.keyword}</div>
+        <div className="font-work-sans text-sm">{result.name ?? result.keyword ?? ''}</div>
     </motion.div>
 );
 
@@ -233,7 +233,7 @@ const TagSelectionPage = () => {
     };
 
     const handleSearchResultClick = (result) => {
-        const keyword = result.keyword;
+        const keyword = result.name ?? result.keyword;
         if (!selectedTags.includes(keyword) && tagCount < maxTags) {
             addTag(keyword);
         }

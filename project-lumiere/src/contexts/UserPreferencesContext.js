@@ -18,6 +18,10 @@ export const UserPreferencesProvider = ({ children }) => {
     runtime: 5,
     popularity: 5,
     familiarity: 5,
+    eraEnabled: true,
+    runtimeEnabled: true,
+    popularityEnabled: true,
+    familiarityEnabled: true,
   });
   const [recommendationStatus, setRecommendationStatus] = useState({
     isLoading: false,
@@ -89,6 +93,13 @@ export const UserPreferencesProvider = ({ children }) => {
     });
   };
 
+  const toggleFilterEnabled = (key) => {
+    setCalibrationSettings(prev => {
+      const enabledKey = key + 'Enabled';
+      return { ...prev, [enabledKey]: !prev[enabledKey] };
+    });
+  };
+
   const setRecommendationLoading = (isLoading, message = '') => {
     setRecommendationStatus(prev => ({
       ...prev,
@@ -131,6 +142,10 @@ export const UserPreferencesProvider = ({ children }) => {
       runtime: 5,
       popularity: 5,
       familiarity: 5,
+      eraEnabled: true,
+      runtimeEnabled: true,
+      popularityEnabled: true,
+      familiarityEnabled: true,
     });
     clearRecommendationStatus();
     localStorage.removeItem('lumiere-selected-tags');
@@ -143,6 +158,7 @@ export const UserPreferencesProvider = ({ children }) => {
     const filters = {};
     
     // Era filter (1-10 scale to year ranges)
+    if (calibrationSettings.eraEnabled) {
     if (calibrationSettings.era <= 3) {
       filters.max_year = 1980;
     } else if (calibrationSettings.era <= 7) {
@@ -150,9 +166,11 @@ export const UserPreferencesProvider = ({ children }) => {
       filters.max_year = 2010;
     } else {
       filters.min_year = 2010;
+      }
     }
     
     // Runtime filter (1-10 scale to minutes)
+    if (calibrationSettings.runtimeEnabled) {
     if (calibrationSettings.runtime <= 3) {
       filters.max_runtime = 90;
     } else if (calibrationSettings.runtime <= 7) {
@@ -160,9 +178,11 @@ export const UserPreferencesProvider = ({ children }) => {
       filters.max_runtime = 150;
     } else {
       filters.min_runtime = 150;
+      }
     }
     
     // Popularity filter (1-10 scale to vote average)
+    if (calibrationSettings.popularityEnabled) {
     if (calibrationSettings.popularity <= 3) {
       filters.max_rating = 6.0;
     } else if (calibrationSettings.popularity <= 7) {
@@ -170,8 +190,10 @@ export const UserPreferencesProvider = ({ children }) => {
       filters.max_rating = 7.5;
     } else {
       filters.min_rating = 7.5;
+      }
     }
     
+    // Familiarity is not a direct filter, but could be used similarly if needed
     return filters;
   };
 
@@ -193,6 +215,7 @@ export const UserPreferencesProvider = ({ children }) => {
     removeTag,
     updateCalibrationSettings,
     updateSetting,
+    toggleFilterEnabled,
     setRecommendationLoading,
     setRecommendationError,
     clearRecommendationStatus,

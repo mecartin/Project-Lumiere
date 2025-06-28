@@ -7,12 +7,15 @@ export const useFavorites = () => useContext(FavoritesContext);
 export const FavoritesProvider = ({ children }) => {
     const [likedMovies, setLikedMovies] = useState([]);
 
-    const handleLikeToggle = (movieId) => {
-        setLikedMovies(prev =>
-            prev.includes(movieId)
-                ? prev.filter(id => id !== movieId)
-                : [...prev, movieId]
-        );
+    const handleLikeToggle = (movie) => {
+        setLikedMovies(prev => {
+            const exists = prev.some(m => m.id === movie.id);
+            if (exists) {
+                return prev.filter(m => m.id !== movie.id);
+            } else {
+                return [...prev, movie];
+            }
+        });
     };
 
     const value = {

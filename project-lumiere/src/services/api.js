@@ -106,29 +106,11 @@ class ApiService {
       max_recommendations: count,
     };
 
-    // Use the tag-based recommendations API endpoint (different port)
-    const tagApiUrl = 'http://localhost:8001';
-    const url = `${tagApiUrl}/recommendations/tag-based`;
-    
-    try {
-      const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestData),
-      });
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(errorData.detail || `HTTP error! status: ${response.status}`);
-      }
-      
-      return await response.json();
-    } catch (error) {
-      console.error('Tag-based recommendations API request failed:', error);
-      throw error;
-    }
+    // Use the unified API endpoint (same port as main API)
+    return this.request('/recommendations/tag-based', {
+      method: 'POST',
+      body: JSON.stringify(requestData),
+    });
   }
 
   async getDiscoveryRecommendations(options = {}) {
@@ -148,21 +130,18 @@ class ApiService {
   }
 
   async getAvailableTags() {
-    const tagApiUrl = 'http://localhost:8001';
-    return this.request('/tags/available', {}, tagApiUrl);
+    return this.request('/tags/available');
   }
 
   // Keywords database status
   async getKeywordsStatus() {
-    const tagApiUrl = 'http://localhost:8001';
-    return this.request('/keywords/status', {}, tagApiUrl);
+    return this.request('/keywords/status');
   }
 
   async generateKeywordsDatabase() {
-    const tagApiUrl = 'http://localhost:8001';
     return this.request('/keywords/generate', {
       method: 'POST',
-    }, tagApiUrl);
+    });
   }
 
   // Movie data helpers

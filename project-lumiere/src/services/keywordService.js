@@ -235,7 +235,7 @@ class KeywordService {
             return [];
         }
         try {
-            const response = await fetch(`http://localhost:8001/keywords/search?q=${encodeURIComponent(query)}&limit=${limit}`);
+            const response = await fetch(`http://localhost:8000/keywords/search?q=${encodeURIComponent(query)}&limit=${limit}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch search results');
             }

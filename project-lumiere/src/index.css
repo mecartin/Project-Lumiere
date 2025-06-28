@@ -107,3 +107,60 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+/* Retro CRT-style scrollbar for CRTScreen synopsis box */
+.retro-synopsis-scroll::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+  border-radius: 8px;
+}
+.retro-synopsis-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00fff7 40%, #222 100%);
+  border-radius: 8px;
+  border: 2px solid #00fff7;
+  box-shadow: 0 0 6px #00fff7, 0 0 2px #fff inset;
+}
+.retro-synopsis-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #00fff7 60%, #222 100%);
+}
+.retro-synopsis-scroll {
+  scrollbar-color: #00fff7 #222;
+  scrollbar-width: thin;
+}
+
+/* Pink/retro scrollbar for FavoritesPage glassmorphic modal */
+.favorites-modal-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background: #2d1a23;
+  border-radius: 8px;
+}
+.favorites-modal-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #D94686 40%, #2d1a23 100%);
+  border-radius: 8px;
+  border: 2px solid #D94686;
+  box-shadow: 0 0 6px #D94686, 0 0 2px #fff2 inset;
+}
+.favorites-modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #D94686 60%, #2d1a23 100%);
+}
+.favorites-modal-scrollbar {
+  scrollbar-color: #D94686 #2d1a23;
+  scrollbar-width: thin;
+}
+
+@keyframes fade-in-matrix {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    letter-spacing: 0.2em;
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    letter-spacing: 0.05em;
+  }
+}
+
+.animate-fade-in-matrix {
+  animation: fade-in-matrix 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}

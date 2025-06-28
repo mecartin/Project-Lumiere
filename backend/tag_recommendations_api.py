@@ -4,7 +4,7 @@ FastAPI endpoint for tag-based movie recommendations
 Integrates the new TagBasedRecommender with the existing backend
 """
 
-from fastapi import FastAPI, HTTPException, Depends, Query
+from fastapi import FastAPI, APIRouter, HTTPException, Depends, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Dict, Optional
@@ -15,17 +15,61 @@ from datetime import datetime
 # Import the tag-based recommender
 from tag_based_recommender import TagBasedRecommender
 
-# Initialize FastAPI app
-app = FastAPI(title="Tag-Based Movie Recommendations API")
+def load_user_data():
+    """Load user data from enhanced_movie_scores_detailed.json"""
+    try:
+        user_data_path = os.path.join(os.path.dirname(__file__), "enhanced_movie_scores_detailed.json")
+        if os.path.exists(user_data_path):
+            with open(user_data_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # Extract user preferences and enriched movies
+            user_preferences = data.get('user_preferences', {})
+            enriched_movies = data.get('enriched_movies', {})
+            
+            # Convert enriched movies to list format expected by recommender
+            user_movies = []
+            for movie_id, movie_data in enriched_movies.items():
+                # Extract cast names from the cast data
+                cast_names = []
+                if 'cast' in movie_data:
+                    cast_names = [actor.get('name', '') for actor in movie_data['cast'][:10]]
+                
+                # Extract director names from crew data (if available)
+                directors = []
+                if 'crew' in movie_data:
+                    directors = [crew.get('name', '') for crew in movie_data['crew'] 
+                               if crew.get('job', '').lower() == 'director']
+                
+                # Create movie object in expected format
+                movie_obj = {
+                    'tmdb_id': movie_data.get('tmdb_id'),
+                    'title': movie_data.get('title'),
+                    'cast': cast_names,
+                    'directors': directors,
+                    'genres': movie_data.get('genres', []),
+                    'keywords': movie_data.get('keywords', []),
+                    'release_date': movie_data.get('release_date'),
+                    'vote_average': movie_data.get('vote_average'),
+                    'popularity': movie_data.get('popularity')
+                }
+                user_movies.append(movie_obj)
+            
+            print(f"📊 Loaded {len(user_movies)} movies from user data")
+            print(f"🎭 User preferences: {len(user_preferences.get('preferred_actors', []))} actors, "
+                  f"{len(user_preferences.get('preferred_directors', []))} directors, "
+                  f"{len(user_preferences.get('preferred_keywords', []))} keywords")
+            
+            return user_movies, user_preferences
+        else:
+            print("⚠️ enhanced_movie_scores_detailed.json not found")
+            return [], {}
+    except Exception as e:
+        print(f"❌ Error loading user data: {e}")
+        return [], {}
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Create router instead of FastAPI app
+router = APIRouter(prefix="", tags=["tag-recommendations"])
 
 # Pydantic models for request/response
 class CalibrationSettings(BaseModel):
@@ -33,6 +77,10 @@ class CalibrationSettings(BaseModel):
     runtime: int = 5
     popularity: int = 5
     familiarity: int = 5
+    eraEnabled: bool = True
+    runtimeEnabled: bool = True
+    popularityEnabled: bool = True
+    familiarityEnabled: bool = True
 
 class TagRecommendationRequest(BaseModel):
     user_tags: List[str]
@@ -55,6 +103,7 @@ class MovieRecommendation(BaseModel):
     similarity_score: float
     familiarity_score: float
     source_tags: List[str]
+    credits: Optional[Dict] = None
 
 class TagRecommendationResponse(BaseModel):
     recommendations: List[MovieRecommendation]
@@ -81,16 +130,7 @@ def get_recommender() -> TagBasedRecommender:
     
     return recommender
 
-@app.on_event("startup")
-async def startup_event():
-    """Initialize the recommender on startup"""
-    try:
-        get_recommender()
-        print("✅ Tag-based recommender initialized successfully")
-    except Exception as e:
-        print(f"❌ Failed to initialize recommender: {e}")
-
-@app.get("/health")
+@router.get("/health")
 async def health_check():
     """Health check endpoint"""
     return {
@@ -99,7 +139,7 @@ async def health_check():
         "timestamp": datetime.now().isoformat()
     }
 
-@app.post("/recommendations/tag-based", response_model=TagRecommendationResponse)
+@router.post("/recommendations/tag-based", response_model=TagRecommendationResponse)
 async def get_tag_based_recommendations(request: TagRecommendationRequest):
     """
     Get movie recommendations based on user-selected tags and calibration settings
@@ -133,11 +173,17 @@ async def get_tag_based_recommendations(request: TagRecommendationRequest):
         # Convert calibration settings to dict
         calibration_dict = request.calibration_settings.dict()
         
+        # Load user data from enhanced_movie_scores_detailed.json
+        user_movies, user_preferences = load_user_data()
+        
+        # Use provided user_movies if available, otherwise use loaded data
+        final_user_movies = request.user_movies if request.user_movies else user_movies
+        
         # Get recommendations
         recommendations = recommender.get_recommendations(
             user_tags=request.user_tags,
             calibration_settings=calibration_dict,
-            user_movies=request.user_movies or [],
+            user_movies=final_user_movies,
             max_recommendations=request.max_recommendations
         )
         
@@ -149,8 +195,15 @@ async def get_tag_based_recommendations(request: TagRecommendationRequest):
             "tags_selected": len(request.user_tags),
             "tags": request.user_tags,
             "calibration_settings": calibration_dict,
-            "movies_analyzed": len(request.user_movies or []),
-            "recommendations_found": len(recommendations)
+            "movies_analyzed": len(final_user_movies),
+            "recommendations_found": len(recommendations),
+            "user_data_loaded": len(user_movies) > 0,
+            "user_preferences": {
+                "actors": len(user_preferences.get('preferred_actors', [])),
+                "directors": len(user_preferences.get('preferred_directors', [])),
+                "keywords": len(user_preferences.get('preferred_keywords', [])),
+                "genres": len(user_preferences.get('preferred_genres', []))
+            }
         }
         
         # Convert recommendations to response format
@@ -170,7 +223,8 @@ async def get_tag_based_recommendations(request: TagRecommendationRequest):
                 final_score=movie.get('final_score', 0.0),
                 similarity_score=movie.get('similarity_score', 0.0),
                 familiarity_score=movie.get('familiarity_score', 0.0),
-                source_tags=movie.get('source_tags', [])
+                source_tags=movie.get('source_tags', []),
+                credits=movie.get('credits')
             ))
         
         return TagRecommendationResponse(
@@ -187,7 +241,7 @@ async def get_tag_based_recommendations(request: TagRecommendationRequest):
             detail=f"Failed to generate recommendations: {str(e)}"
         )
 
-@app.get("/tags/available")
+@router.get("/tags/available")
 async def get_available_tags():
     """Get list of available tags that can be used for recommendations"""
     available_tags = [
@@ -198,101 +252,125 @@ async def get_available_tags():
     ]
     
     return {
-        "available_tags": available_tags,
+        "tags": available_tags,
         "total_tags": len(available_tags),
-        "max_selection": 25
+        "description": "Available tags for tag-based recommendations"
     }
 
-@app.get("/keywords/status")
+@router.get("/keywords/status")
 async def get_keywords_status():
-    """Check the status of the TMDB keywords database"""
+    """Check the status of the keywords database"""
     try:
         recommender = get_recommender()
+        keywords_file = os.path.join("tmdb_cache", "tmdb_keywords.json")
         
-        keywords_file = os.path.join(recommender.cache_dir, "tmdb_keywords.json")
-        tag_mapping_file = os.path.join(recommender.cache_dir, "tag_to_keyword_mapping.json")
-        
-        keywords_exists = os.path.exists(keywords_file)
-        tag_mapping_exists = os.path.exists(tag_mapping_file)
-        
-        status = {
-            "keywords_database_exists": keywords_exists,
-            "tag_mapping_exists": tag_mapping_exists,
-            "keywords_count": len(recommender.keywords_db) if keywords_exists else 0,
-            "cache_directory": recommender.cache_dir
-        }
-        
-        if keywords_exists:
+        if os.path.exists(keywords_file):
             with open(keywords_file, 'r') as f:
                 keywords_data = json.load(f)
-                status["keywords_count"] = len(keywords_data)
-        
-        if tag_mapping_exists:
-            with open(tag_mapping_file, 'r') as f:
-                tag_mapping = json.load(f)
-                status["mapped_tags_count"] = len(tag_mapping)
-        
-        return status
-        
+            
+            return {
+                "status": "available",
+                "total_keywords": len(keywords_data),
+                "file_size": os.path.getsize(keywords_file),
+                "last_updated": datetime.fromtimestamp(
+                    os.path.getmtime(keywords_file)
+                ).isoformat()
+            }
+        else:
+            return {
+                "status": "not_found",
+                "message": "Keywords database not found. Use /keywords/generate to create it."
+            }
     except Exception as e:
         return {
-            "error": str(e),
-            "keywords_database_exists": False,
-            "tag_mapping_exists": False
+            "status": "error",
+            "message": f"Error checking keywords status: {str(e)}"
         }
 
-@app.post("/keywords/generate")
+@router.post("/keywords/generate")
 async def generate_keywords_database():
-    """Generate the TMDB keywords database (admin endpoint)"""
+    """Generate the keywords database from TMDB"""
     try:
         recommender = get_recommender()
+        print("🔧 Generating keywords database...")
         
-        # Generate keywords database
-        keywords_db = recommender.generate_keywords_database()
+        recommender.generate_keywords_database()
         
         return {
-            "success": True,
-            "keywords_generated": len(keywords_db),
-            "message": "Keywords database generated successfully"
+            "status": "success",
+            "message": "Keywords database generated successfully",
+            "timestamp": datetime.now().isoformat()
         }
-        
     except Exception as e:
         raise HTTPException(
             status_code=500,
             detail=f"Failed to generate keywords database: {str(e)}"
         )
 
-@app.get("/keywords/search")
+@router.get("/keywords/search")
 async def search_keywords(q: str = Query(..., min_length=1), limit: int = 20):
-    """Search keywords by substring (case-insensitive)"""
-    recommender = get_recommender()
-    # Load keywords database (assume it's a dict: name.lower() -> id)
-    keywords_db = recommender.keywords_db
-    results = []
-    q_lower = q.lower()
-    for name, kid in keywords_db.items():
-        if q_lower in name:
-            results.append({"keyword": name, "id": kid})
-            if len(results) >= limit:
-                break
-    return {"results": results}
+    """Search for keywords by name"""
+    try:
+        recommender = get_recommender()
+        
+        # Search in the keywords database
+        matching_keywords = []
+        search_term = q.lower()
+        
+        for keyword_name, keyword_id in recommender.keywords_db.items():
+            if search_term in keyword_name.lower():
+                matching_keywords.append({
+                    "name": keyword_name,
+                    "id": keyword_id
+                })
+                if len(matching_keywords) >= limit:
+                    break
+        
+        return {
+            "query": q,
+            "results": matching_keywords,
+            "total_found": len(matching_keywords)
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to search keywords: {str(e)}"
+        )
 
-# Example usage endpoint for testing
-@app.get("/example")
+@router.get("/example")
 async def get_example_recommendations():
-    """Get example recommendations for testing"""
+    """Get example tag-based recommendations for testing"""
     example_request = TagRecommendationRequest(
         user_tags=["feel-good", "comedy"],
         calibration_settings=CalibrationSettings(
             era=7,
             runtime=6,
             popularity=5,
-            familiarity=4
+            familiarity=4,
+            eraEnabled=True,
+            runtimeEnabled=True,
+            popularityEnabled=True,
+            familiarityEnabled=True
         ),
         max_recommendations=5
     )
     
     return await get_tag_based_recommendations(example_request)
+
+# For backward compatibility, create a FastAPI app instance
+app = FastAPI(title="Tag-Based Movie Recommendations API")
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Configure appropriately for production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Include the router
+app.include_router(router)
 
 if __name__ == "__main__":
     import uvicorn
